@@ -1,0 +1,63 @@
+#ratingsBar {
+    margin: 0;
+    column-count: 4;
+    column-width: 200px;
+    list-style-type: none;
+}
+
+.mainContent {
+    overflow: hidden;
+    display: flex;
+    flex-flow: column;
+    flex-grow: 1;
+}
+
+.buildingPage {
+    display: flex;
+    overflow: hidden;
+}
+
+#ratingsBar li {
+    min-width: 200px;
+}
+
+#statSummary {
+    margin-left: 46px;
+    margin-top: -10px;
+}
+
+#titleAndBack {
+    display: flex;
+    align-items: center;
+}
+
+#titleAndBack h1 {
+    margin-bottom: 0;
+}
+
+#buildingRating {
+    background-color: rgb(39, 37, 37);
+    color: white;
+    min-width: 150px;
+    padding: 0 10px;
+    overflow: hidden;
+    display: flex;
+    flex-flow: column;
+}
+
+#buildingRating h2 {
+    margin: 8px 0;
+    font-weight: 500;
+}
+
+#ratingsList {
+    list-style-type: none;
+    padding-left: 0;
+    margin: 0;
+    white-space: pre-wrap;
+    overflow: scroll;
+}
+
+#ratingsList li {
+    margin: 4px 0;
+}

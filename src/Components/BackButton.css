@@ -1,0 +1,12 @@
+#backButton {
+    height: 30px;
+    width: 30px;
+    margin: 10px 8px 0 8px;
+    border: 0px;
+    display: inline-block;
+    background: transparent;
+}
+
+#backButton:hover {
+    cursor: pointer;
+}

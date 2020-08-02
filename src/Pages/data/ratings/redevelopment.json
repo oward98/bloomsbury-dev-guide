@@ -1,0 +1,268 @@
+[
+    {
+        "name": "School of Slavonic and Eastern European Studies",
+        "status": "Complete",
+        "span": "The School of Slavonic and Eastern European Studies on Endsleigh Street is an exemplar of contextual modern development in the Bloomsbury Conservation Area. Its interesting facade and roofscape shows it is possible to be original and creative while respecting the historic environment.",
+        "slug": "school-of-slavonic-and-eastern-european-studies",
+        "description": "description here",
+        "year": 9999,
+        "conservation_areas": "Bloomsbury",
+        "address": "Endsleigh Street",
+        "architect": "Shorts & Associates",
+        "images": [
+            {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/8/8e/School_of_Slavonic_%26_East_European_Studies.JPG",
+                "alt": "School of Slavonic and Eastern European Studies",
+                "caption": "The School of Slavonic and Eastern European Studies on Endsleigh Street" 
+            },
+            {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/8/8e/School_of_Slavonic_%26_East_European_Studies.JPG",
+                "alt": "School of Slavonic and Eastern European Studies",
+                "caption": "The School of Slavonic and Eastern European Studies on Endsleigh Street" 
+            },
+            {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/8/8e/School_of_Slavonic_%26_East_European_Studies.JPG",
+                "alt": "School of Slavonic and Eastern European Studies",
+                "caption": "The School of Slavonic and Eastern European Studies on Endsleigh Street" 
+            },
+            {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/8/8e/School_of_Slavonic_%26_East_European_Studies.JPG",
+                "alt": "School of Slavonic and Eastern European Studies",
+                "caption": "The School of Slavonic and Eastern European Studies on Endsleigh Street" 
+            },
+            {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/8/8e/School_of_Slavonic_%26_East_European_Studies.JPG",
+                "alt": "School of Slavonic and Eastern European Studies",
+                "caption": "The School of Slavonic and Eastern European Studies on Endsleigh Street" 
+            },
+            {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/8/8e/School_of_Slavonic_%26_East_European_Studies.JPG",
+                "alt": "School of Slavonic and Eastern European Studies",
+                "caption": "The School of Slavonic and Eastern European Studies on Endsleigh Street" 
+            },
+            {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/8/8e/School_of_Slavonic_%26_East_European_Studies.JPG",
+                "alt": "School of Slavonic and Eastern European Studies",
+                "caption": "The School of Slavonic and Eastern European Studies on Endsleigh Street" 
+            },
+            {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/8/8e/School_of_Slavonic_%26_East_European_Studies.JPG",
+                "alt": "School of Slavonic and Eastern European Studies",
+                "caption": "The School of Slavonic and Eastern European Studies on Endsleigh Street" 
+            }
+        ],
+        "rating": {
+            "scale": 5,
+            "mass": 5,
+            "quality": 5,
+            "conservation": 5,
+            "materials": 5,
+            "solid_to_void": 5,
+            "proportions": 5,
+            "balance": 5,
+            "use": 5,
+            "plot_width": 5,
+            "vertical_hierarchy": 5,
+            "relationship_to_street": 4,
+            "roofscape": 5
+        }
+    },
+    {
+        "name": "British Library",
+        "status": "Complete",
+        "span": "The British Library is an excellent example of how large scale development can successfully integrate with the historic environment, and even enhance its special character. It is Grade I listed, a rare designation for such a modern building.",
+        "slug": "british-library",
+        "description": "description here",
+        "year": 1990,
+        "conservation_areas": "King's Cross, Bloomsbury",
+        "address": "Euston Road",
+        "architect": "Architect",
+        "images": [
+            {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/2/22/British_library_london.jpg",
+                "alt": "The British Library",
+                "caption": "The British Library, Euston Road" 
+            }
+        ],
+        "rating": {
+            "scale": 5,
+            "mass": 5,
+            "quality": 5,
+            "conservation": 0,
+            "materials": 5,
+            "solid_to_void": 4,
+            "proportions": 4,
+            "balance": 4,
+            "use": 4,
+            "plot_width": 5,
+            "vertical_hierarchy": 3,
+            "relationship_to_street": 4,
+            "roofscape": 4
+        }
+    },
+    {
+        "name": "Clore Management Centre",
+        "status": "Complete",
+        "span": "The Clore Management Centre is a sensitive development adjoining Georgian terraces on Woburn Square and Torrington Square. Its scale, mass, and materials are evidently drawn from the environment.",
+        "slug": "clore-management-centre",
+        "description": "decription here",
+        "year": 9999,
+        "conservation_areas": "Bloomsbury",
+        "address": "Torrington Square",
+        "architect": "Architect",
+        "images": [
+            {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/c/c2/Torrington_Square%2C_London_%26_Clore_Management_Centre.JPG",
+                "alt": "The Clore Management Centre",
+                "caption": "The Clore Management Centre, Torrington Square" 
+            }
+        ],
+        "rating": {
+            "scale": 5,
+            "mass": 4,
+            "quality": 3,
+            "conservation": 5,
+            "materials": 4,
+            "solid_to_void": 5,
+            "proportions": 5,
+            "balance": 4,
+            "use": 5,
+            "plot_width": 3,
+            "vertical_hierarchy": 5,
+            "relationship_to_street": 3,
+            "roofscape": 3
+        }
+    },
+    {
+        "name": "Post Building",
+        "status": "Complete",
+        "span": "The Post Building on New Oxford Street is an oversized and entirely inappropriate development dominating views in this part of the Bloomsbury Conservation Area.",
+        "slug": "post-building",
+        "description": "description here",
+        "year": 9999,
+        "conservation_areas": "Bloomsbury",
+        "address": "New Oxford Street",
+        "architect": "AHMM",
+        "images": [
+            {
+                "url": "https://res.cloudinary.com/jll-global-olm-np/image/upload/h_1000,c_fill/q_60/t_main/olm3/data/uk/4773/images/75330/NewPhoto1-crop.jpg",
+                "alt": "The Post Building",
+                "caption": "The Post Building on New Oxford Street." 
+            }
+        ],
+        "rating": {
+            "scale": 2,
+            "mass": 2,
+            "quality": 1,
+            "conservation": 5,
+            "materials": 0,
+            "solid_to_void": 5,
+            "proportions": 3,
+            "balance": 4,
+            "use": 4,
+            "plot_width": 4,
+            "vertical_hierarchy": 4,
+            "relationship_to_street": 3,
+            "roofscape": 1
+        }
+    },
+    {
+        "name": "One Cartwright Gardens",
+        "status": "Complete",
+        "span": "One Cartwright Gardens is a vastly oversized student halls development comprising one side of a Georgian crescent. It involved the demolition of a positive contributor to the Bloomsbury CA.",
+        "slug": "one-cartwright-gardens",
+        "description": "description here",
+        "year": 2015,
+        "conservation_areas": "Bloomsbury",
+        "address": "Cartwright Gardens",
+        "architect": "Architect",
+        "images": [
+            {
+                "url": "https://www.architectsjournal.co.uk/pictures/420x280/2/2/1/3073221_maccreanorlavington_cartwrightgarden_case_1_01.jpg",
+                "alt": "One Cartwright Gardens",
+                "caption": "One Cartwright Gardens" 
+            }
+        ],
+        "rating": {
+            "scale": 1,
+            "mass": 3,
+            "quality": 3,
+            "conservation": 0,
+            "materials": 5,
+            "solid_to_void": 5,
+            "proportions": 4,
+            "balance": 4,
+            "use": 2,
+            "plot_width": 0,
+            "vertical_hierarchy": 4,
+            "relationship_to_street": 4,
+            "roofscape": 3
+        }
+    },
+    {
+        "name": "Eastman Dental Hospital",
+        "status": "Approved, not yet constructed",
+        "span": "The Eastman Dental Hospital redevelopment on Gray's Inn Road involved the demolition of three sides of an historic hospital courtyard.",
+        "slug": "eastman-dental-hospital",
+        "description": "",
+        "year": 2020,
+        "conservation_areas": "Bloomsbury",
+        "street": "Gray's Inn Road",
+        "architect": "Architect",
+        "images": [
+            {
+                "url": "https://www.ucl.ac.uk/news/sites/news/files/styles/large_image/public/grays_inn_north_resized.jpg?itok=eXE70reo",
+                "alt": "Eastman Dental Hospital",
+                "caption": "Eastman Dental Hospital development, from Gray's Inn Road" 
+            }
+        ],
+        "rating": {
+            "scale": 0,
+            "mass": 0,
+            "quality": 2,
+            "conservation": 0,
+            "materials": 3,
+            "solid_to_void": 3,
+            "proportions": false,
+            "balance": 1,
+            "use": 4,
+            "plot_width": 0,
+            "vertical_hierarchy": 0,
+            "relationship_to_street": 2,
+            "roofscape": 0
+        }
+    },
+    {
+        "name": "Belgrove House (Proposed)",
+        "status": "Preconsultation",
+        "span": "Belgrove House is a proposed development on Euston Road.",
+        "slug": "belgrove-house",
+        "description": "",
+        "year": 2020,
+        "conservation_areas": "King's Cross, Bloomsbury",
+        "street": "Euston Road",
+        "architect": "AHMM",
+        "images": [
+            {
+                "url": "https://nla-production.s3.amazonaws.com/15395/conversions/2048-x-1152-normal.jpg",
+                "alt": "The proposed Belgrove House redevelopment, Euston Road",
+                "caption": "The proposed Belgrove House redevelopment, Euston Road" 
+            }
+        ],
+        "rating": {
+            "scale": 0,
+            "mass": 0,
+            "quality": 2,
+            "conservation": 2,
+            "materials": 2,
+            "solid_to_void": 1,
+            "proportions": 2,
+            "balance": 2,
+            "use": 1,
+            "plot_width": 2,
+            "vertical_hierarchy": 1,
+            "relationship_to_street": 1,
+            "roofscape": 0
+        }
+    }
+]

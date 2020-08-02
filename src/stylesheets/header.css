@@ -1,0 +1,76 @@
+#veryTopNav {
+    font-size: 0.8rem;
+    display: flex;
+    background-color: black;
+    color: lightgray;
+    border-bottom: none;
+}
+
+#veryTopNav h1, #veryTopNav li {
+    padding-top: 2px;
+    padding-bottom: 2px;
+    border: none;
+}
+
+#veryTopNav a {
+    color: gray;
+}
+
+#mainHeading {
+    font-size: 1.7em;
+    margin: 0;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    /*background-color: rgb(59, 75, 15);*/
+    background-color: rgb(61, 108, 139);
+    color: white;
+    font-weight: normal;
+}
+
+
+.fullWidthNav {
+    display: flex;
+    padding: 0 var(--global-margin);
+
+}
+
+.fullWidthNav h1 {
+    padding: 5px 10px 5px 0;
+    margin: 0;
+    font-size: 1em;
+    font-style: normal;
+}
+
+.fullWidthNav ul {
+    display: flex;
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+.fullWidthNav ul li {
+    margin: 0;
+    padding: 5px 10px;
+}
+
+
+#mainHeading {
+    padding-left: var(--global-margin);
+}
+
+#mainNav {
+    background-color: gray;
+    font-size: 0.9em;
+}
+
+#mainNav ul li:first-of-type {
+    padding-left: 0;
+}
+
+.selected {
+    font-weight: bold;
+}
+
+#appHeader a {
+    color: white;
+}

@@ -1,0 +1,11 @@
+footer {
+    padding: 0 var(--global-margin);
+    border-top: solid 2px black;
+    display: flex;
+    height: var(--footer-height);
+    align-items: center;
+    background-color: black;
+    color: white;
+    font-weight: 400;
+    justify-content: space-between;
+}
