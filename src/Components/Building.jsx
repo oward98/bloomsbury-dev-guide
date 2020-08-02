@@ -1,5 +1,5 @@
 import React from 'react';
-import { calculateScore, createImage } from './utils';
+import { calculateScore } from './utils';
 import { BackButton } from './BackButton';
 import { ImageMasonry } from './ImageMasonry';
 import './Building.css';
@@ -25,7 +25,7 @@ const prettifyRating = (rating) => {
 }
 
 export const Building = ({buildingObject}) => {
-    const { name, description, year, address, architect, images, rating } = buildingObject;
+    const { name, year, address, architect, images, rating } = buildingObject;
     return (
         <div className='buildingPage'>
             <div className='mainContent'>

@@ -4,5 +4,5 @@ import './BackButton.css';
  
 export const BackButton = () => {
     const history = useHistory();
-    return <img id='backButton' src='/back.png' onClick={() => history.goBack()} />
+    return <img id='backButton' src='/back.png' alt='Click to go back' onClick={() => history.goBack()} />
 }

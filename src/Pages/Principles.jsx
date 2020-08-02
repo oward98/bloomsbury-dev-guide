@@ -88,7 +88,7 @@ export const Principles = () => {
     return (
         <div id='mainDiv'>
             <SideNav heading='Principles' routesData={principlesRoutesData}/>
-            <Routes routesData={principlesRoutesData}/>  
+            <Routes routesData={principlesRoutesData}/>
         </div>  
     )
 }
