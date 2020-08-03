@@ -53,3 +53,7 @@ h1#buildingName {
 #buildingDescription {
     font-size: 1.4em;
 }
+
+.rating {
+    font-size: 0.8em;
+}

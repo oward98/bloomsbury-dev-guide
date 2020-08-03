@@ -1,143 +1,126 @@
 import React from 'react';
-import { Main } from './Main';
+import { Principle } from '../Components/Principle';
 import { SideNav } from './SideNav';
 import { Routes } from './Routes';
  
 const principlesRoutesData = [
     {
-        title: 'Critical',
-        link: '/principles/critical',
-        component: <Main />,
+        title: 'Scale',
+        link: '/principles/scale',
+        component: <Principle />,
         props: {
-            title: 'Critical'
-        },
-        subtitles: [
-            {
-                title: 'Scale',
-                link: '/principles/critical/scale',
-                component: <Main />,
-                props: {
-                    title: 'Scale'
-                }
-            },
-            {
-                title: 'Mass',
-                link: '/principles/critical/mass',
-                component: <Main />,
-                props: {
-                    title: 'Mass'
-                }
-            },
-            {
-                title: 'Conservation',
-                link: '/principles/critical/conservation',
-                component: <Main />,
-                props: {
-                    title: 'Conservation'
-                }
-            },
-        ]
+            title: 'Scale',
+            importance: 'Critical'
+        }
     },
     {
-        title: 'High Importance',
-        link: '/principles/high-importance',
-        component: <Main />,
+        title: 'Materials',
+        link: '/principles/materials',
+        component: <Principle />,
         props: {
-            title: 'High Importance'
-        },
-        subtitles: [
-            {
-                title: 'Materials',
-                link: '/principles/high-importance/materials',
-                component: <Main />,
-                props: {
-                    title: 'Materials'
-                }
-            },
-            {
-                title: 'Solid-to-Void Ratio',
-                link: '/principles/high-importance/solid-to-void-ratio',
-                component: <Main />,
-                props: {
-                    title: 'Solid-to-Void Ratio'
-                }
-            },
-            {
-                title: 'Aesthetic Quality',
-                link: '/principles/high-importance/aesthetic-quality',
-                component: <Main />,
-                props: {
-                    title: 'Aesthetic Quality'
-                }
-            },
-            {
-                title: 'Proportions',
-                link: '/principles/high-importance/proportions',
-                component: <Main />,
-                props: {
-                    title: 'Proportions'
-                }
-            }
-        ]
+            title: 'Materials',
+            importance: 'Critical',
+        }
     },
     {
-        title: 'Lesser Importance',
-        link: '/principles/lesser-importance',
-        component: <Main />,
+        title: 'Conservation',
+        link: '/principles/conservation',
+        component: <Principle />,
         props: {
-            title: 'Lesser Importance'
-        },
-        subtitles: [
-            {
-                title: 'Balance',
-                link: '/principles/lesser-importance/balance',
-                component: <Main />,
-                props: {
-                    title: 'Balance'
-                }
-            },
-            {
-                title: 'Plot Width',
-                link: '/principles/lesser-importance/plot-width',
-                component: <Main />,
-                props: {
-                    title: 'Plot Width'
-                }
-            },
-            {
-                title: 'Relationship to Street',
-                link: '/principles/lesser-importance/relationship-to-street',
-                component: <Main />,
-                props: {
-                    title: 'Relationship to Street'
-                }
-            },
-            {
-                title: 'Roofscape',
-                link: '/principles/lesser-importance/roofscape',
-                component: <Main />,
-                props: {
-                    title: 'Roofscape'
-                }
-            },
-            {
-                title: 'Use',
-                link: '/principles/lesser-importance/use',
-                component: <Main />,
-                props: {
-                    title: 'Use'
-                }
-            },
-            {
-                title: 'Vertical Hierarchy',
-                link: '/principles/lesser-importance/vertical-hierarchy',
-                component: <Main />,
-                props: {
-                    title: 'Vertical Hierarchy'
-                }
-            },
-        ]
-    }  
+            title: 'Conservation',
+            importance: 'Critical'
+        }
+    },
+    {
+        title: 'Mass',
+        link: '/principles/mass',
+        component: <Principle />,
+        props: {
+            title: 'Mass',
+            importance: 'High'
+        }
+    },
+    {
+        title: 'Solid-to-Void Ratio',
+        link: '/principles/solid-to-void-ratio',
+        component: <Principle />,
+        props: {
+            title: 'Solid-to-Void Ratio',
+            importance: 'High',
+        }
+    },
+    {
+        title: 'Aesthetic Quality',
+        link: '/principles/aesthetic-quality',
+        component: <Principle />,
+        props: {
+            title: 'Aesthetic Quality',
+            importance: 'High',
+        }
+    },
+    {
+        title: 'Proportions',
+        link: '/principles/proportions',
+        component: <Principle />,
+        props: {
+            title: 'Proportions',
+            importance: 'High',
+        }
+    },
+    {
+        title: 'Balance',
+        link: '/principles/balance',
+        component: <Principle />,
+        props: {
+            title: 'Balance',
+            importance: 'High',
+        }
+    },
+    {
+        title: 'Plot Width',
+        link: '/principles/plot-width',
+        component: <Principle />,
+        props: {
+            title: 'Plot Width',
+            importance: 'Medium',
+        }
+    },
+    {
+        title: 'Relationship to Street',
+        link: '/principles/relationship-to-street',
+        component: <Principle />,
+        props: {
+            title: 'Relationship to Street',
+            importance: 'Medium',
+        }
+    },
+    {
+        title: 'Roofscape',
+        link: '/principles/roofscape',
+        component: <Principle />,
+        props: {
+            title: 'Roofscape',
+            importance: 'Medium',
+        }
+    },
+    {
+        title: 'Use',
+        link: '/principles/use',
+        component: <Principle />,
+        props: {
+            title: 'Use',
+            importance: 'Medium',
+        }
+    },
+    {
+        title: 'Vertical Hierarchy',
+        link: '/principles/vertical-hierarchy',
+        component: <Principle />,
+        props: {
+            title: 'Vertical Hierarchy',
+            importance: 'Low',
+        }
+    }
 ]
 
 export const Principles = () => {

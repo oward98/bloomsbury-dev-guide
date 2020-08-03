@@ -52,7 +52,7 @@ export const Building = ({buildingObject}) => {
                         Object.keys(rating).map(ratingName => {
                             const score = rating[ratingName];
                             return (
-                                <li>{prettifyRating(ratingName)}{`\n`}<span className='rating'><StarRatings rating={score} starDimension='15px' starSpacing='2px' starRatedColor='rgb(201, 174, 22)'/></span></li>
+                                <li>{prettifyRating(ratingName)}{`\n`}<span className='rating'><StarRatings rating={score} starDimension='12px' starSpacing='1px' starRatedColor='rgb(201, 174, 22)'/></span></li>
                             )
                         })
                     }

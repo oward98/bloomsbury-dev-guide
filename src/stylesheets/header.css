@@ -73,7 +73,7 @@
 }
 
 #mainNav li.selected {
-    background-color: rgb(58, 92, 121);
+    background-color: rgb(228, 230, 231);
 }
 
 #appHeader a {
@@ -81,5 +81,5 @@
 }
 
 #appHeader .selected a {
-    color: rgb(213, 216, 218);
+    
 }
