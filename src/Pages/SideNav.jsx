@@ -1,22 +1,27 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
+import { Link, useLocation } from 'react-router-dom';
 
-export const SideNav = ({heading, routesData}) => {
-    const subheadings = Object.keys(routesData);
+export const SideNav = ({ routesData }) => {
+    const path = useLocation().pathname;
     const makeLink = linkData => <Link to={linkData.link}>{linkData.title}</Link>
+    const decideClassName = linkData => path.includes(linkData.link) ? "selected" : null;
     return (
         <nav className='sideNav'>
-            <header>
-                <h1>{heading}</h1>
-            </header>
             <ul id='mainSideList'>
-                {subheadings.map(subheading => {
+                {routesData.map(topLevelLink => {
                     return (
-                        <li>
-                            <h2>{subheading}</h2>
-                            <ul className='sideMinorList'>
-                                {routesData[subheading].map(linkData => <li>{makeLink(linkData)}</li>)}
-                            </ul>
+                        <li className={`${decideClassName(topLevelLink)}  topLevelList`}>
+                            <h2 className={decideClassName(topLevelLink)}>{makeLink(topLevelLink)}</h2>
+                            {
+                                topLevelLink.subtitles
+                                ?
+                                <ul className='sideMinorList'>
+                                    {topLevelLink.subtitles.map(lowerLevelLink => <li ><h3 className={decideClassName(lowerLevelLink)}>{makeLink(lowerLevelLink)}</h3></li>)}
+                                </ul>
+                                :
+                                null
+                                
+                            }
                         </li>  
                     )
                 })}
@@ -24,3 +29,22 @@ export const SideNav = ({heading, routesData}) => {
         </nav>
     )
 }
+
+/*
+const sideNavData = [
+    {
+        title,
+        link,
+        subheadings: [
+            {
+                linkTitle,
+                slug
+                etc
+        }
+        ]
+    },
+    {
+
+    },
+]
+*/

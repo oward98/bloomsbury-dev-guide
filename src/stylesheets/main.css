@@ -28,11 +28,13 @@ main {
     overflow: scroll;
     display: flex;
     flex-flow: column;
-    border-right: solid 1px black;
     padding: 0 0 0 var(--global-margin);
     width: 200px;
     flex-shrink: 0;
-    background-color: rgb(242, 244, 247);
+}
+
+#mainSideList .selected {
+    font-weight: 600;
 }
 
 #app h1 {
@@ -45,12 +47,18 @@ main {
     padding: 0;
     margin: 0;
     overflow: scroll;
+    margin-top: 5px;
 }
 
 #mainSideList h2 {
     font-size: 1.2em;
     font-weight: normal;
     margin: 0;
+}
+
+.topLevelList {
+    border-bottom: 1px solid gray;
+    padding: 7px 0;
 }
 
 .sideMinorList {
@@ -61,5 +69,5 @@ main {
 .sideMinorList h3 {
     font-size: 1.1em;
     font-weight: normal;
-    margin: 0;
+    margin: 2px 0;
 }

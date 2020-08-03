@@ -7,7 +7,7 @@ html {
     --global-margin: 30px;
     --turqoise: rgb(35, 80, 78);
     --light-turqoise: rgb(108, 169, 173);
-    --footer-height: 30px;
+    --footer-height: 65px;
     height: 100vh;
     width: 100vw;
 }
