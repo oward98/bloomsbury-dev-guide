@@ -6,9 +6,7 @@ export const ImageMasonry = ({imageObjects}) => {
         const { url, alt, caption } = imageObject;
         return (
             <figure className='imageBlock'>
-                <div clasName='imageContainer'>
-                    <img src={url} alt={alt} />
-                </div>
+                <img src={url} alt={alt} />
                 <figcaption>{caption}</figcaption>
             </figure>
         )

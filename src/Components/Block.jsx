@@ -5,11 +5,13 @@ import StarRatings from 'react-star-ratings';
 
 
 export const Block = ({blockData}) => {
-    const { name, span, slug, images, rating } = blockData;
+    const { name, slug, images, rating } = blockData;
     const score = calculateScore(rating);
+    console.log(name);
+    console.log(score);
     const imageElements = images.map(image => createImage(image));
     return (
-        <Link to={`/ratings/exemplary-redevelopment/${slug}`}>
+        <Link to={`/ratings/redevelopment/${slug}`}>
             <section className='exampleBlock'>
                 <div className='exampleBanner'>
                     {imageElements[0]}
@@ -18,9 +20,6 @@ export const Block = ({blockData}) => {
                     <h2>{name}</h2>
                     <span className='rating'><StarRatings rating={score} starDimension='15px' starSpacing='2px' starRatedColor='rgb(201, 174, 22)'/> {score}</span>
                 </header>
-                <section className='summary'>
-                    <p>{span}</p>
-                </section>
             </section>
         </Link>
     )

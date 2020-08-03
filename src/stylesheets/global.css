@@ -7,19 +7,18 @@ html {
     --global-margin: 30px;
     --turqoise: rgb(35, 80, 78);
     --light-turqoise: rgb(108, 169, 173);
-    --footer-height: 65px;
+    --footer-height: 30px;
+    position: relative;
     height: 100vh;
     width: 100vw;
+    overflow: hidden;
 }
 
 body {
     margin: 0;
-    position: relative;
-    min-height: 100vh;
-    display: flex;
-    flex-flow: column;
     height: 100vh;
     width: 100vw;
+    overflow: scroll;
 }
 
 a {

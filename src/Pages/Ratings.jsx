@@ -45,7 +45,7 @@ const buildingsData = require('./data/ratings/redevelopment.json');
 const buildingsRoutesData = buildingsData.map(buildingObject => {
     return ({
         title: buildingObject.name,
-        link: `/ratings/exemplary-redevelopment/${buildingObject.slug}`,
+        link: `/ratings/redevelopment/${buildingObject.slug}`,
         component: <Building />,
         props: {
             buildingObject

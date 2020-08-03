@@ -48,7 +48,7 @@ const principlesRoutesData = [
         subtitles: [
             {
                 title: 'Materials',
-                link: '/principles/critical/materials',
+                link: '/principles/high-importance/materials',
                 component: <Main />,
                 props: {
                     title: 'Materials'
@@ -60,6 +60,14 @@ const principlesRoutesData = [
                 component: <Main />,
                 props: {
                     title: 'Solid-to-Void Ratio'
+                }
+            },
+            {
+                title: 'Aesthetic Quality',
+                link: '/principles/high-importance/aesthetic-quality',
+                component: <Main />,
+                props: {
+                    title: 'Aesthetic Quality'
                 }
             },
             {
@@ -81,6 +89,22 @@ const principlesRoutesData = [
         },
         subtitles: [
             {
+                title: 'Balance',
+                link: '/principles/lesser-importance/balance',
+                component: <Main />,
+                props: {
+                    title: 'Balance'
+                }
+            },
+            {
+                title: 'Plot Width',
+                link: '/principles/lesser-importance/plot-width',
+                component: <Main />,
+                props: {
+                    title: 'Plot Width'
+                }
+            },
+            {
                 title: 'Relationship to Street',
                 link: '/principles/lesser-importance/relationship-to-street',
                 component: <Main />,
@@ -90,7 +114,7 @@ const principlesRoutesData = [
             },
             {
                 title: 'Roofscape',
-                link: '/principles/roofscape',
+                link: '/principles/lesser-importance/roofscape',
                 component: <Main />,
                 props: {
                     title: 'Roofscape'
@@ -98,12 +122,20 @@ const principlesRoutesData = [
             },
             {
                 title: 'Use',
-                link: '/principles/use',
+                link: '/principles/lesser-importance/use',
                 component: <Main />,
                 props: {
                     title: 'Use'
                 }
-            }
+            },
+            {
+                title: 'Vertical Hierarchy',
+                link: '/principles/lesser-importance/vertical-hierarchy',
+                component: <Main />,
+                props: {
+                    title: 'Vertical Hierarchy'
+                }
+            },
         ]
     }  
 ]

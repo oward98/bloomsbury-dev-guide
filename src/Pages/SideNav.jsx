@@ -4,7 +4,7 @@ import { Link, useLocation } from 'react-router-dom';
 export const SideNav = ({ routesData }) => {
     const path = useLocation().pathname;
     const makeLink = linkData => <Link to={linkData.link}>{linkData.title}</Link>
-    const decideClassName = linkData => path.includes(linkData.link) ? "selected" : null;
+    const decideClassName = linkData => path.includes(linkData.link) ? "selected" : "unselected";
     return (
         <nav className='sideNav'>
             <ul id='mainSideList'>

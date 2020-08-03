@@ -1,29 +1,20 @@
 main {
     padding: 0 var(--global-margin);
-    flex-grow: 1;
-    flex-flow: column;
-    display: flex;
-    overflow: hidden;
 }
 
 #app {
-    flex-grow: 1;
-    display: flex;
-    flex-flow: column;
-    overflow: hidden;
+    position: sticky;
+    top: 0;
 }
 
 #mainDiv {
     display: flex;
-    flex-grow: 1;
-    position: relative;
-    top: 0;
-    bottom: 0;
-    height: 100%;
-    overflow: hidden;
+    align-items: flex-start;
 }
 
 .sideNav {
+    position: sticky;
+    top: 30px;
     max-height: 100%;
     overflow: scroll;
     display: flex;
@@ -35,6 +26,14 @@ main {
 
 #mainSideList .selected {
     font-weight: 600;
+}
+
+#mainSideList .selected .sideMinorList {
+    display: block;
+}
+
+#mainSideList .unselected .sideMinorList {
+    display: none;
 }
 
 #app h1 {

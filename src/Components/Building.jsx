@@ -43,7 +43,6 @@ export const Building = ({buildingObject}) => {
                 </main>
             </div>
             <aside id='buildingRating'>
-                <h2>Rating</h2>
                 <ul id='ratingsList'>
                     {
                         Object.keys(rating).map(ratingName => {

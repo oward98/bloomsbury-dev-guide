@@ -10,8 +10,9 @@ const createRoute = ({link, component, props: componentProps}) => {
 
 export const Routes = ({routesData}) => {
     let routeDataArray = [];
-    Object.keys(routesData).forEach(routeSection => {
-        routeDataArray = routeDataArray.concat(routesData[routeSection]);
+    routesData.forEach(topLevelDatum => {
+        routeDataArray.push(topLevelDatum);
+        if (topLevelDatum.subtitles) routeDataArray = routeDataArray.concat(topLevelDatum.subtitles);
     })
     const routes = routeDataArray.map(routeData => createRoute(routeData));
     return (

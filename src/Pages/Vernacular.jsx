@@ -71,7 +71,7 @@ const vernacularRoutesData = [
         subtitles: [
             {
                 title: 'Terrace',
-                link: '/vernacular/typology/terrace',
+                link: '/vernacular/building-typology/terrace',
                 component: <Main />,
                 props: {
                     title: 'Terrace'
@@ -79,7 +79,7 @@ const vernacularRoutesData = [
             },
             {
                 title: 'Mansion Block',
-                link: '/vernacular/typology/mansion-block',
+                link: '/vernacular/building-typology/mansion-block',
                 component: <Main />,
                 props: {
                     title: 'Mansion Block'
@@ -87,7 +87,7 @@ const vernacularRoutesData = [
             },
             {
                 title: 'Institutional',
-                link: '/vernacular/typology/institutional',
+                link: '/vernacular/building-typology/institutional',
                 component: <Main />,
                 props: {
                     title: 'Institutional'
@@ -95,7 +95,7 @@ const vernacularRoutesData = [
             },
             {
                 title: 'Commercial',
-                link: '/vernacular/typology/commercial',
+                link: '/vernacular/building-typology/commercial',
                 component: <Main />,
                 props: {
                     title: 'Commercial'
@@ -103,7 +103,7 @@ const vernacularRoutesData = [
             },
             {
                 title: 'Legal',
-                link: '/vernacular/typology/legal',
+                link: '/vernacular/building-typology/legal',
                 component: <Main />,
                 props: {
                     title: 'Legal'
@@ -111,7 +111,7 @@ const vernacularRoutesData = [
             },
             {
                 title: 'Ecclesiastical',
-                link: '/vernacular/typology/ecclesiastical',
+                link: '/vernacular/building-typology/ecclesiastical',
                 component: <Main />,
                 props: {
                     title: 'Ecclesiastical'
@@ -119,7 +119,7 @@ const vernacularRoutesData = [
             },
             {
                 title: 'Mews',
-                link: '/vernacular/typology/mews',
+                link: '/vernacular/building-typology/mews',
                 component: <Main />,
                 props: {
                     title: 'Mews'
@@ -127,7 +127,7 @@ const vernacularRoutesData = [
             },
             {
                 title: 'Curiosities',
-                link: '/vernacular/typology/building-curiosities',
+                link: '/vernacular/building-typology/building-curiosities',
                 component: <Main />,
                 props: {
                     title: 'Curiosities'
@@ -137,7 +137,7 @@ const vernacularRoutesData = [
     },
     {
         title: "Style",
-        link: 'vernacular/style',
+        link: '/vernacular/style',
         component: <Main />,
         props: {
             title: "Style"
@@ -253,7 +253,7 @@ const vernacularRoutesData = [
         subtitles: [
             {
                 title: 'Butterfly Roofs',
-                link: '/vernacular/butterfly-roofs',
+                link: '/vernacular/roofscape/butterfly-roofs',
                 component: <Main />,
                 props: {
                     title: 'Butterfly Roofs'
@@ -261,7 +261,7 @@ const vernacularRoutesData = [
             },
             {
                 title: 'Chimney Stacks',
-                link: '/vernacular/chimney-stacks',
+                link: '/vernacular/roofscape/chimney-stacks',
                 component: <Main />,
                 props: {
                     title: 'Chimney Stacks'
@@ -269,7 +269,7 @@ const vernacularRoutesData = [
             },
             {
                 title: 'Expressed Party Walls',
-                link: '/vernacular/expressed-party-walls',
+                link: '/vernacular/roofscape/expressed-party-walls',
                 component: <Main />,
                 props: {
                     title: 'Expressed Party Walls'
@@ -277,7 +277,7 @@ const vernacularRoutesData = [
             },
             {
                 title: 'Parapets',
-                link: '/vernacular/parapets',
+                link: '/vernacular/roofscape/parapets',
                 component: <Main />,
                 props: {
                     title: 'Parapets'
@@ -285,7 +285,7 @@ const vernacularRoutesData = [
             },
             {
                 title: 'Turrets',
-                link: '/vernacular/turrets',
+                link: '/vernacular/roofscape/turrets',
                 component: <Main />,
                 props: {
                     title: 'Turrets'
@@ -293,7 +293,7 @@ const vernacularRoutesData = [
             },
             {
                 title: 'Dormers',
-                link: '/vernacular/dormers',
+                link: '/vernacular/roofscape/dormers',
                 component: <Main />,
                 props: {
                     title: 'Dormers'
@@ -311,7 +311,7 @@ const vernacularRoutesData = [
         subtitles: [
             {
                 title: 'Classical Orders',
-                link: '/vernacular/classical-orders',
+                link: '/vernacular/features/classical-orders',
                 component: <Main />,
                 props: {
                     title: 'Classical Orders'
@@ -319,7 +319,7 @@ const vernacularRoutesData = [
             },
             {
                 title: 'Corner Elements',
-                link: '/vernacular/corner-elements',
+                link: '/vernacular/features/corner-elements',
                 component: <Main />,
                 props: {
                     title: 'Corner Elements'
@@ -327,7 +327,7 @@ const vernacularRoutesData = [
             },
             {
                 title: 'Entrances',
-                link: '/vernacular/entrances',
+                link: '/vernacular/features/entrances',
                 component: <Main />,
                 props: {
                     title: 'Entrances'
@@ -335,7 +335,7 @@ const vernacularRoutesData = [
             },
             {
                 title: 'Fanlights',
-                link: '/vernacular/fanlights',
+                link: '/vernacular/features/fanlights',
                 component: <Main />,
                 props: {
                     title: 'Fanlights'
@@ -343,7 +343,7 @@ const vernacularRoutesData = [
             },
             {
                 title: 'Porticos',
-                link: '/vernacular/porticos',
+                link: '/vernacular/features/porticos',
                 component: <Main />,
                 props: {
                     title: 'Porticos'
@@ -351,7 +351,7 @@ const vernacularRoutesData = [
             },
             {
                 title: 'Clocks',
-                link: '/vernacular/clocks',
+                link: '/vernacular/features/clocks',
                 component: <Main />,
                 props: {
                     title: 'Clocks'
@@ -359,7 +359,7 @@ const vernacularRoutesData = [
             },
             {
                 title: 'Signs',
-                link: '/vernacular/signs',
+                link: '/vernacular/features/signs',
                 component: <Main />,
                 props: {
                     title: 'Signs'
@@ -377,7 +377,7 @@ const vernacularRoutesData = [
         subtitles: [
             {
                 title: 'Squares and Gardens',
-                link: '/vernacular/squares-and-gardens',
+                link: '/vernacular/street-environment/squares-and-gardens',
                 component: <Main />,
                 props: {
                     title: 'Squares and Gardens'
@@ -385,7 +385,7 @@ const vernacularRoutesData = [
             },
             {
                 title: 'Paving',
-                link: '/vernacular/paving',
+                link: '/vernacular/street-environment/paving',
                 component: <Main />,
                 props: {
                     title: 'Paving'
@@ -393,7 +393,7 @@ const vernacularRoutesData = [
             },
             {
                 title: 'Setts',
-                link: '/vernacular/setts',
+                link: '/vernacular/street-environment/setts',
                 component: <Main />,
                 props: {
                     title: 'Setts'
@@ -401,7 +401,7 @@ const vernacularRoutesData = [
             },
             {
                 title: 'Kerbstones',
-                link: '/vernacular/kerbstones',
+                link: '/vernacular/street-environment/kerbstones',
                 component: <Main />,
                 props: {
                     title: 'Kerbstones'
@@ -409,7 +409,7 @@ const vernacularRoutesData = [
             },
             {
                 title: 'Lampposts',
-                link: '/vernacular/lampposts',
+                link: '/vernacular/street-environment/lampposts',
                 component: <Main />,
                 props: {
                     title: 'Lampposts'
@@ -417,7 +417,7 @@ const vernacularRoutesData = [
             },
             {
                 title: 'Railings',
-                link: '/vernacular/railings',
+                link: '/vernacular/street-environment/railings',
                 component: <Main />,
                 props: {
                     title: 'Railings'
@@ -425,7 +425,7 @@ const vernacularRoutesData = [
             },
             {
                 title: 'Benches',
-                link: '/vernacular/benches',
+                link: '/vernacular/street-environment/benches',
                 component: <Main />,
                 props: {
                     title: 'Benches'
@@ -433,7 +433,7 @@ const vernacularRoutesData = [
             },
             {
                 title: 'Postboxes',
-                link: '/vernacular/postboxes',
+                link: '/vernacular/street-environment/postboxes',
                 component: <Main />,
                 props: {
                     title: 'Postboxes'
@@ -441,7 +441,7 @@ const vernacularRoutesData = [
             },
             {   
                 title: 'Wildlife',
-                link: '/vernacular/wildlife',
+                link: '/vernacular/street-environment/wildlife',
                 component: <Main />,
                 props: {
                     title: 'Wildlife'
@@ -449,7 +449,7 @@ const vernacularRoutesData = [
             },
             {
                 title: 'Curiosities',
-                link: '/vernacular/curiosities',
+                link: '/vernacular/street-environment/curiosities',
                 component: <Main />,
                 props: {
                     title: 'Curiosities'
