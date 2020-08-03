@@ -12,23 +12,18 @@
     flex-grow: 1;
 }
 
+.mainContent header {
+    margin: 0 var(--global-margin);
+}
+
 .buildingPage {
     display: flex;
     align-items: flex-start;
+    margin: 0 10px;
 }
 
 #ratingsBar li {
     min-width: 200px;
-}
-
-#statSummary {
-    margin-left: 46px;
-    margin-top: -10px;
-}
-
-#titleAndBack {
-    display: flex;
-    align-items: center;
 }
 
 #titleAndBack h1 {
@@ -60,4 +55,8 @@
 
 #ratingsList li {
     margin: 4px 0;
+}
+
+h1#buildingName {
+    margin-bottom: 0px;
 }

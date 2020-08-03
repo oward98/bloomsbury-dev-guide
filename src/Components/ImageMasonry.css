@@ -8,7 +8,7 @@
     overflow: hidden;
     column-span: none;
     display: inline-block;
-    margin: 0;
+    margin: 0 0 20px 0;
 }
 
 .imageBlock .imageContainer {

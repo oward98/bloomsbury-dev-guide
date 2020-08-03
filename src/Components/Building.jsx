@@ -1,6 +1,5 @@
 import React from 'react';
 import { calculateScore } from './utils';
-import { BackButton } from './BackButton';
 import { ImageMasonry } from './ImageMasonry';
 import './Building.css';
 import StarRatings from 'react-star-ratings';
@@ -25,20 +24,25 @@ const prettifyRating = (rating) => {
 }
 
 export const Building = ({buildingObject}) => {
-    const { name, year, address, architect, images, rating } = buildingObject;
+    const { name, year, address, description, architect, images, rating } = buildingObject;
+    const totalScore = calculateScore(rating);
     return (
         <div className='buildingPage'>
             <div className='mainContent'>
                 <header>
                     <div id='titleBar'>
-                        <div id='titleAndBack'>
-                            <BackButton />
-                            <h1>{name}</h1>
-                        </div>
-                        <span id='statSummary'>{calculateScore(rating)} stars  &middot;  {address}  &middot;  {architect}  &middot;  {year}</span>
+                        <h1 id='buildingName'>{name}</h1>
+                        <span><StarRatings rating={totalScore} starDimension='15px' starSpacing='2px' starRatedColor='rgb(201, 174, 22)'/> {totalScore}</span>
+                        <br />
+                        <span>{address} &middot; {architect} &middot; {year}</span>
                     </div>
                 </header>
                 <main>
+                    <article>
+                        <p>
+                            {description}
+                        </p>
+                    </article>
                     <ImageMasonry imageObjects={images}/>
                 </main>
             </div>
