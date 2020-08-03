@@ -5,21 +5,9 @@
     list-style-type: none;
 }
 
-.mainContent {
-    overflow: hidden;
-    display: flex;
-    flex-flow: column;
-    flex-grow: 1;
-}
-
-.mainContent header {
-    margin: 0 var(--global-margin);
-}
-
 .buildingPage {
     display: flex;
     align-items: flex-start;
-    margin: 0 10px;
 }
 
 #ratingsBar li {
@@ -38,6 +26,7 @@
     flex-flow: column;
     position: sticky;
     top: 30px;
+    margin-left: 15px;
 }
 
 #buildingRating h2 {
@@ -59,4 +48,8 @@
 
 h1#buildingName {
     margin-bottom: 0px;
+}
+
+#buildingDescription {
+    font-size: 1.4em;
 }

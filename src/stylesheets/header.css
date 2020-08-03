@@ -1,8 +1,8 @@
 #veryTopNav {
-    font-size: 0.9em;
+    font-size: 1em;
     display: flex;
     background-color: black;
-    color: lightgray;
+    color: rgb(190, 190, 190);
     border-bottom: none;
 }
 
@@ -13,11 +13,11 @@
 }
 
 #veryTopNav a {
-    color: gray;
+    color: rgb(190, 190, 190);
 }
 
 #mainHeading {
-    font-size: 2em;
+    font-size: 2.3em;
     margin: 0;
     padding-top: 15px;
     padding-bottom: 15px;
@@ -67,8 +67,9 @@
 }
 
 #mainNav {
-    background-color: rgb(210, 213, 214);
-    font-size: 1.05em;
+    background-color: white;
+    border-bottom: 1px solid gray;
+    opacity: 0.9;
 }
 
 #mainNav li.selected {

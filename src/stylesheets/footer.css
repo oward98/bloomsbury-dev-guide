@@ -1,9 +1,8 @@
 footer {
     padding: 0 var(--global-margin);
-    border-top: solid 2px black;
     display: flex;
     height: var(--footer-height);
-    width: 100vw;
+    width: 100%;
     align-items: center;
     background-color: black;
     color: white;
@@ -12,4 +11,6 @@ footer {
     position: absolute;
     bottom: 0;
     z-index: 1;
+    box-sizing: border-box;
+    opacity: 0.95;
 }

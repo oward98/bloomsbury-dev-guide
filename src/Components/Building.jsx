@@ -27,8 +27,8 @@ export const Building = ({buildingObject}) => {
     const { name, year, address, description, architect, images, rating } = buildingObject;
     const totalScore = calculateScore(rating);
     return (
-        <div className='buildingPage'>
-            <div className='mainContent'>
+        <main className='buildingPage'>
+            <div>
                 <header>
                     <div id='titleBar'>
                         <h1 id='buildingName'>{name}</h1>
@@ -37,14 +37,14 @@ export const Building = ({buildingObject}) => {
                         <span>{address} &middot; {architect} &middot; {year}</span>
                     </div>
                 </header>
-                <main>
+                <section>
                     <article>
-                        <p>
+                        <p id='buildingDescription'>
                             {description}
                         </p>
                     </article>
                     <ImageMasonry imageObjects={images}/>
-                </main>
+                </section>
             </div>
             <aside id='buildingRating'>
                 <ul id='ratingsList'>
@@ -58,7 +58,7 @@ export const Building = ({buildingObject}) => {
                     }
                 </ul>
             </aside>
-        </div>
+        </main>
     )
 }
 
