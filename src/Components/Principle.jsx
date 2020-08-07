@@ -10,7 +10,6 @@ const importanceColours = {
 
 export const Principle = ({title, importance, description, images}) => {
     const colour =  importanceColours[importance];
-    console.log(colour);
     return (
         <main>
             <header>

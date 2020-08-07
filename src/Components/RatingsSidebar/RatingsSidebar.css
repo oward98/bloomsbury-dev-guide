@@ -1,0 +1,27 @@
+#ratingsSidebar {
+    min-width: 150px;
+    padding: 10px;
+    overflow: hidden;
+    display: flex;
+    flex-flow: column;
+    position: sticky;
+    top: 30px;
+    margin-left: 15px;
+}
+
+#ratingsSidebar h2 {
+    margin: 8px 0;
+    font-weight: 500;
+}
+
+#ratingsSidebar ul {
+    list-style-type: none;
+    padding-left: 0;
+    margin: 0;
+    white-space: pre-wrap;
+    overflow: scroll;
+}
+
+#ratingsSidebar li {
+    margin: 4px 0;
+}

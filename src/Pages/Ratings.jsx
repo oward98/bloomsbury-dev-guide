@@ -2,7 +2,7 @@ import React from 'react';
 import { SideNav } from './SideNav';
 import { Routes } from './Routes';
 import { Main } from './Main';
-import { Building } from '../Components/Building';
+import { Building } from '../Components/Building/Building';
 
 const ratingsRoutesData = [
     {

@@ -2,7 +2,9 @@ import React from 'react';
 import { Main } from './Main';
 import { SideNav } from './SideNav';
 import { Routes } from './Routes';
- 
+import { Pinterest } from '../Components/Pinterest';
+import { VernacularPage } from '../Components/VernacularPage';
+
 const vernacularRoutesData = [
     {
         title: 'Materials',
@@ -72,7 +74,7 @@ const vernacularRoutesData = [
             {
                 title: 'Terrace',
                 link: '/vernacular/building-typology/terrace',
-                component: <Main />,
+                component: <VernacularPage />,
                 props: {
                     title: 'Terrace'
                 }

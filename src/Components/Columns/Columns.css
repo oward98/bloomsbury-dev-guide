@@ -1,0 +1,4 @@
+.columnsTest {
+    column-span: none;
+    column-gap: 20px;
+}

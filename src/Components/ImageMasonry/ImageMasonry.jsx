@@ -1,7 +1,8 @@
 import React from 'react';
+import { Columns } from '../Columns/Columns';
 import './ImageMasonry.css';
 
-export const ImageMasonry = ({imageObjects}) => {
+export const ImageMasonry = ({imageObjects, columnWidth}) => {
     const images = imageObjects.map(imageObject => {
         const { url, alt, caption } = imageObject;
         return (
@@ -12,10 +13,8 @@ export const ImageMasonry = ({imageObjects}) => {
         )
     })
     return (
-        <section className='blocks'>
-            <div className='columns'>
-                {images}
-            </div>
-        </section>
+        <Columns columnWidth={columnWidth} >
+            {images}
+        </Columns>
     )
 }

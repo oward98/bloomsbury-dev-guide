@@ -1,5 +1,5 @@
 import React from 'react';
-import { Principle } from '../Components/Principle';
+import { Test } from '../Components/Test/Test';
 import { SideNav } from './SideNav';
 import { Routes } from './Routes';
  
@@ -7,7 +7,7 @@ const principlesRoutesData = [
     {
         title: 'Scale',
         link: '/principles/scale',
-        component: <Principle />,
+        component: <Test />,
         props: {
             title: 'Scale',
             importance: 'Critical',
@@ -20,7 +20,7 @@ const principlesRoutesData = [
     {
         title: 'Materials',
         link: '/principles/materials',
-        component: <Principle />,
+        component: <Test />,
         props: {
             title: 'Materials',
             importance: 'Critical',
@@ -33,7 +33,7 @@ const principlesRoutesData = [
     {
         title: 'Conservation',
         link: '/principles/conservation',
-        component: <Principle />,
+        component: <Test />,
         props: {
             title: 'Conservation',
             importance: 'High',
@@ -46,7 +46,7 @@ const principlesRoutesData = [
     {
         title: 'Mass',
         link: '/principles/mass',
-        component: <Principle />,
+        component: <Test />,
         props: {
             title: 'Mass',
             importance: 'High',
@@ -59,7 +59,7 @@ const principlesRoutesData = [
     {
         title: 'Solid-to-Void Ratio',
         link: '/principles/solid-to-void-ratio',
-        component: <Principle />,
+        component: <Test />,
         props: {
             title: 'Solid-to-Void Ratio',
             importance: 'High',
@@ -72,7 +72,7 @@ const principlesRoutesData = [
     {
         title: 'Aesthetic Quality',
         link: '/principles/aesthetic-quality',
-        component: <Principle />,
+        component: <Test />,
         props: {
             title: 'Aesthetic Quality',
             importance: 'High',
@@ -85,7 +85,7 @@ const principlesRoutesData = [
     {
         title: 'Proportions',
         link: '/principles/proportions',
-        component: <Principle />,
+        component: <Test />,
         props: {
             title: 'Proportions',
             importance: 'High',
@@ -98,7 +98,7 @@ const principlesRoutesData = [
     {
         title: 'Balance',
         link: '/principles/balance',
-        component: <Principle />,
+        component: <Test />,
         props: {
             title: 'Balance',
             importance: 'High',
@@ -111,7 +111,7 @@ const principlesRoutesData = [
     {
         title: 'Plot Width',
         link: '/principles/plot-width',
-        component: <Principle />,
+        component: <Test />,
         props: {
             title: 'Plot Width',
             importance: 'Medium',
@@ -124,7 +124,7 @@ const principlesRoutesData = [
     {
         title: 'Relationship to Street',
         link: '/principles/relationship-to-street',
-        component: <Principle />,
+        component: <Test />,
         props: {
             title: 'Relationship to Street',
             importance: 'Medium',
@@ -137,7 +137,7 @@ const principlesRoutesData = [
     {
         title: 'Roofscape',
         link: '/principles/roofscape',
-        component: <Principle />,
+        component: <Test />,
         props: {
             title: 'Roofscape',
             importance: 'Medium',
@@ -150,7 +150,7 @@ const principlesRoutesData = [
     {
         title: 'Use',
         link: '/principles/use',
-        component: <Principle />,
+        component: <Test />,
         props: {
             title: 'Use',
             importance: 'Medium',
@@ -163,7 +163,7 @@ const principlesRoutesData = [
     {
         title: 'Vertical Hierarchy',
         link: '/principles/vertical-hierarchy',
-        component: <Principle />,
+        component: <Test />,
         props: {
             title: 'Vertical Hierarchy',
             importance: 'Low',
