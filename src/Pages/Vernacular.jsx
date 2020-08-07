@@ -1,10 +1,7 @@
 import React from 'react';
 import { Main } from './Main';
 import { SideNav } from './SideNav';
-import { Routes } from './Routes';
-import { Pinterest } from '../Components/Pinterest';
-import { VernacularPage } from '../Components/VernacularPage';
-
+import { Routes } from '../Routes/Routes';
 const vernacularRoutesData = [
     {
         title: 'Materials',
@@ -74,7 +71,7 @@ const vernacularRoutesData = [
             {
                 title: 'Terrace',
                 link: '/vernacular/building-typology/terrace',
-                component: <VernacularPage />,
+                component: <Main />,
                 props: {
                     title: 'Terrace'
                 }

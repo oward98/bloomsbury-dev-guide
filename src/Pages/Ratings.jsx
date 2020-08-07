@@ -1,6 +1,6 @@
 import React from 'react';
 import { SideNav } from './SideNav';
-import { Routes } from './Routes';
+import { Routes } from '../Routes/Routes';
 import { Main } from './Main';
 import { Building } from '../Components/Building/Building';
 

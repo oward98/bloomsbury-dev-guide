@@ -1,7 +1,7 @@
 import React from 'react';
 import { Test } from '../Components/Test/Test';
 import { SideNav } from './SideNav';
-import { Routes } from './Routes';
+import { Routes } from '../Routes/Routes';
  
 const principlesRoutesData = [
     {

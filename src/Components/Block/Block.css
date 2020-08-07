@@ -1,0 +1,28 @@
+.exampleBlock {
+    border-radius: 2px;
+    background-color: white;
+    overflow: hidden;
+    margin: 0;
+    column-span: none;
+    display: inline-block;
+    margin-bottom: 20px;
+    width: 100%;
+}
+
+.exampleBanner img {
+    object-fit: cover;
+    width: 100%;
+    min-height: 500px;
+    border-radius: 4px;
+}
+
+.exampleBlock h2 {
+    font-size: 1.1em;
+    margin: 0;
+}
+
+#blockRating {
+    font-size: 1em;
+    color: gray;
+    padding-bottom: 5px;
+}

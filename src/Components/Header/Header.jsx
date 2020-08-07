@@ -2,11 +2,12 @@ import React from 'react';
 import './Header.css';
 
 export const Header = ({children, spans}) => {
-    const spansToRender = spans.map(span => <summary>{span}</summary>)
+    let spansToRender;
+    if (spans) spansToRender = spans.map(span => <summary>{span}</summary>)
     return (
         <header id='mainHeader'>
             <h1>{children}</h1>
-            {spansToRender}
+            {spansToRender ? spansToRender : null}
         </header>
     )
 }

@@ -1,7 +1,9 @@
 import React from 'react';
-import { Block } from '../Components/Block';
+import { Block } from '../Components/Block/Block';
+import { Columns } from '../Components/Columns/Columns';
+import { Header } from '../Components/Header/Header';
 
-export const Main = ({title, text, blocks_path}) => {
+export const Main = ({title, blocks_path}) => {
     let blocksToRender;
     if (blocks_path) {
         const blockData = require(`./data/${blocks_path}`);
@@ -9,12 +11,10 @@ export const Main = ({title, text, blocks_path}) => {
     }
     return (
         <main>
-            <h1>{title}</h1>
-            <section className='blocks'>
-                <div className='columns'>
-                    {blocksToRender}
-                </div>
-            </section>
+            <Header>{title}</Header>
+            <Columns columnWidth='300px'>
+                {blocksToRender}
+            </Columns>
         </main> 
     )
 }
