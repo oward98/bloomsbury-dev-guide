@@ -7,7 +7,7 @@
         "description": "description here",
         "year": 2004,
         "conservation_areas": "Bloomsbury",
-        "address": "Endsleigh Street",
+        "address": "Taviton Street",
         "architect": "Shorts & Associates",
         "images": [
             {
@@ -73,10 +73,10 @@
         "span": "The British Library is an excellent example of how large scale development can successfully integrate with the historic environment, and even enhance its special character. It is Grade I listed, a rare designation for such a modern building.",
         "slug": "british-library",
         "description": "description here",
-        "year": 1990,
+        "year": 1998,
         "conservation_areas": "King's Cross, Bloomsbury",
         "address": "Euston Road",
-        "architect": "Architect",
+        "architect": "MJ Long, Colin Wilson",
         "images": [
             {
                 "url": "https://upload.wikimedia.org/wikipedia/commons/2/22/British_library_london.jpg",
@@ -106,10 +106,10 @@
         "span": "The Clore Management Centre is a sensitive development adjoining Georgian terraces on Woburn Square and Torrington Square. Its scale, mass, and materials are evidently drawn from the environment.",
         "slug": "clore-management-centre",
         "description": "decription here",
-        "year": 9999,
+        "year": 1997,
         "conservation_areas": "Bloomsbury",
         "address": "Torrington Square",
-        "architect": "Architect",
+        "architect": "Stanton Williams Architects",
         "images": [
             {
                 "url": "https://upload.wikimedia.org/wikipedia/commons/c/c2/Torrington_Square%2C_London_%26_Clore_Management_Centre.JPG",
@@ -139,7 +139,7 @@
         "span": "The Post Building on New Oxford Street is an oversized and entirely inappropriate development dominating views in this part of the Bloomsbury Conservation Area.",
         "slug": "post-building",
         "description": "description here",
-        "year": 9999,
+        "year": 2019,
         "conservation_areas": "Bloomsbury",
         "address": "New Oxford Street",
         "architect": "AHMM",
@@ -175,7 +175,7 @@
         "year": 2015,
         "conservation_areas": "Bloomsbury",
         "address": "Cartwright Gardens",
-        "architect": "Architect",
+        "architect": "Maccreanor Lavington",
         "images": [
             {
                 "url": "https://www.architectsjournal.co.uk/pictures/420x280/2/2/1/3073221_maccreanorlavington_cartwrightgarden_case_1_01.jpg",
@@ -207,8 +207,8 @@
         "description": "description",
         "year": 2020,
         "conservation_areas": "Bloomsbury",
-        "street": "Gray's Inn Road",
-        "architect": "Architect",
+        "address": "Gray's Inn Road",
+        "architect": "Hawkins Brown",
         "images": [
             {
                 "url": "https://www.ucl.ac.uk/news/sites/news/files/styles/large_image/public/grays_inn_north_resized.jpg?itok=eXE70reo",
@@ -223,7 +223,7 @@
             "conservation": 0,
             "materials": 3,
             "solid_to_void": 3,
-            "proportions": false,
+            "proportions": 3,
             "balance": 1,
             "use": 4,
             "plot_width": 0,
@@ -240,7 +240,7 @@
         "description": "description",
         "year": 2020,
         "conservation_areas": "King's Cross, Bloomsbury",
-        "street": "Euston Road",
+        "address": "Euston Road",
         "architect": "AHMM",
         "images": [
             {

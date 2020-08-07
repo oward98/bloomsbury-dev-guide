@@ -1,11 +1,9 @@
 main {
-    padding: 0 var(--global-margin);
-    margin-bottom: 20px;
+    padding: 0 var(--global-margin) var(--global-margin) var(--global-margin);
+    margin-bottom: var(--footer-height);
 }
 
 #app {
-    position: sticky;
-    top: 0;
 }
 
 #mainDiv {
@@ -71,4 +69,12 @@ main {
     font-size: 1.1em;
     font-weight: normal;
     margin: 2px 0;
+}
+
+#home {
+    padding-right: 20%;
+}
+
+#home p, #home li {
+    font-size: 1.3em;
 }

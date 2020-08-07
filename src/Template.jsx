@@ -22,7 +22,7 @@ export const Template = () => {
                         <Link to='/'>Home</Link>
                     </li>
                     <li className={isCurrentPage(path, 'principles') ? 'selected' : 'unselected'}>
-                        <Link to='/principles'>Principles</Link>
+                        <Link to='/principles'>Tests</Link>
                     </li>
                     <li className={isCurrentPage(path, 'ratings') ? 'selected' : 'unselected'}>
                         <Link to='/ratings'>Development Ratings</Link>

@@ -10,7 +10,11 @@ const principlesRoutesData = [
         component: <Principle />,
         props: {
             title: 'Scale',
-            importance: 'Critical'
+            importance: 'Critical',
+            description: 'description here',
+            images: [
+                
+            ]
         }
     },
     {
@@ -20,6 +24,10 @@ const principlesRoutesData = [
         props: {
             title: 'Materials',
             importance: 'Critical',
+            description: 'description here',
+            images: [
+                
+            ]
         }
     },
     {
@@ -28,7 +36,11 @@ const principlesRoutesData = [
         component: <Principle />,
         props: {
             title: 'Conservation',
-            importance: 'Critical'
+            importance: 'High',
+            description: 'description here',
+            images: [
+                
+            ]
         }
     },
     {
@@ -37,7 +49,11 @@ const principlesRoutesData = [
         component: <Principle />,
         props: {
             title: 'Mass',
-            importance: 'High'
+            importance: 'High',
+            description: 'description here',
+            images: [
+                
+            ]
         }
     },
     {
@@ -47,6 +63,10 @@ const principlesRoutesData = [
         props: {
             title: 'Solid-to-Void Ratio',
             importance: 'High',
+            description: 'description here',
+            images: [
+                
+            ]
         }
     },
     {
@@ -56,6 +76,10 @@ const principlesRoutesData = [
         props: {
             title: 'Aesthetic Quality',
             importance: 'High',
+            description: 'description here',
+            images: [
+                
+            ]
         }
     },
     {
@@ -65,6 +89,10 @@ const principlesRoutesData = [
         props: {
             title: 'Proportions',
             importance: 'High',
+            description: 'description here',
+            images: [
+                
+            ]
         }
     },
     {
@@ -74,6 +102,10 @@ const principlesRoutesData = [
         props: {
             title: 'Balance',
             importance: 'High',
+            description: 'description here',
+            images: [
+                
+            ]
         }
     },
     {
@@ -83,6 +115,10 @@ const principlesRoutesData = [
         props: {
             title: 'Plot Width',
             importance: 'Medium',
+            description: 'description here',
+            images: [
+                
+            ]
         }
     },
     {
@@ -92,6 +128,10 @@ const principlesRoutesData = [
         props: {
             title: 'Relationship to Street',
             importance: 'Medium',
+            description: 'description here',
+            images: [
+                
+            ]
         }
     },
     {
@@ -101,6 +141,10 @@ const principlesRoutesData = [
         props: {
             title: 'Roofscape',
             importance: 'Medium',
+            description: 'description here',
+            images: [
+                
+            ]
         }
     },
     {
@@ -110,6 +154,10 @@ const principlesRoutesData = [
         props: {
             title: 'Use',
             importance: 'Medium',
+            description: 'description here',
+            images: [
+                
+            ]
         }
     },
     {
@@ -119,6 +167,10 @@ const principlesRoutesData = [
         props: {
             title: 'Vertical Hierarchy',
             importance: 'Low',
+            description: 'description here',
+            images: [
+                
+            ]
         }
     }
 ]

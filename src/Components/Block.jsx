@@ -7,8 +7,6 @@ import StarRatings from 'react-star-ratings';
 export const Block = ({blockData}) => {
     const { name, slug, images, rating } = blockData;
     const score = calculateScore(rating);
-    console.log(name);
-    console.log(score);
     const imageElements = images.map(image => createImage(image));
     return (
         <Link to={`/ratings/redevelopment/${slug}`}>

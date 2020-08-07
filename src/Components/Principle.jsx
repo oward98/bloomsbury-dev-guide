@@ -18,7 +18,9 @@ export const Principle = ({title, importance, description, images}) => {
                 <span>Importance: <mark style={{color: colour}}>{importance}</mark></span>
             </header>
             <article>
-                {description}
+                <p>
+                    {description}
+                </p>
             </article>
         </main>
     )
