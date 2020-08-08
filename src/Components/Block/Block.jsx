@@ -4,20 +4,29 @@ import { Link } from 'react-router-dom';
 import { calculateScore, createImage } from '../utils';
 import StarRatings from 'react-star-ratings';
 
-export const Block = ({blockData}) => {
-    const { name, slug, images, rating } = blockData;
-    const score = calculateScore(rating);
-    const imageElements = images.map(image => createImage(image));
+export const Block = ({title, image, link, options}) => {
+    const imageToRender = createImage(image);
+    const { rating, summary } = options;
+    let ratingToRender = null;
+    if (rating) {
+        const score = calculateScore(rating);
+        ratingToRender = <span id='blockRating'><StarRatings rating={score} starDimension='15px' starSpacing='2px' starRatedColor='rgb(201, 174, 22)'/> {score}</span>
+    }
+    let descriptionToRender = null;
+    if (summary) {
+        descriptionToRender = <p>{summary}</p>
+    }
     return (
-        <Link to={`/ratings/redevelopment/${slug}`}>
+        <Link to={link}>
             <section className='exampleBlock'>
                 <div className='exampleBanner'>
-                    {imageElements[0]}
+                    {imageToRender}
                 </div>
                 <header>
-                    <h2>{name}</h2>
-                    <span id='blockRating'><StarRatings rating={score} starDimension='15px' starSpacing='2px' starRatedColor='rgb(201, 174, 22)'/> {score}</span>
+                    <h2>{title}</h2>
+                    {ratingToRender}
                 </header>
+                {descriptionToRender}
             </section>
         </Link>
     )

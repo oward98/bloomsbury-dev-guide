@@ -21,8 +21,12 @@
     margin: 0;
 }
 
-#blockRating {
+.exampleBlock span {
     font-size: 1em;
     color: gray;
     padding-bottom: 5px;
+}
+
+.exampleBlock p {
+    margin: 0;
 }

@@ -1,4 +1,5 @@
 import React from 'react';
+import './SideNav.css';
 import { Link, useLocation } from 'react-router-dom';
 
 export const SideNav = ({ routesData }) => {
@@ -19,8 +20,7 @@ export const SideNav = ({ routesData }) => {
                                     {topLevelLink.subtitles.map(lowerLevelLink => <li ><h3 className={decideClassName(lowerLevelLink)}>{makeLink(lowerLevelLink)}</h3></li>)}
                                 </ul>
                                 :
-                                null
-                                
+                                null    
                             }
                         </li>  
                     )

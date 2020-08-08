@@ -1,0 +1,53 @@
+.sideNav {
+    position: sticky;
+    top: 30px;
+    max-height: 100%;
+    overflow: scroll;
+    display: flex;
+    flex-flow: column;
+    padding: 0 0 0 var(--global-margin);
+    width: 200px;
+    flex-shrink: 0;
+}
+
+#mainSideList .selected {
+    font-weight: 600;
+}
+
+#mainSideList .selected .sideMinorList {
+    display: block;
+}
+
+#mainSideList .unselected .sideMinorList {
+    display: none;
+}
+
+#mainSideList {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    overflow: scroll;
+    margin-top: 5px;
+}
+
+#mainSideList h2 {
+    font-size: 1.2em;
+    font-weight: normal;
+    margin: 0;
+}
+
+.topLevelList {
+    border-bottom: 1px solid gray;
+    padding: 7px 0;
+}
+
+.sideMinorList {
+    padding-left: 10px;
+    list-style-type: none;
+}
+
+.sideMinorList h3 {
+    font-size: 1.1em;
+    font-weight: normal;
+    margin: 2px 0;
+}

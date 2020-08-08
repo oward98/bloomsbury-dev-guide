@@ -3,11 +3,17 @@ import { Block } from '../Components/Block/Block';
 import { Columns } from '../Components/Columns/Columns';
 import { Header } from '../Components/Header/Header';
 
-export const Main = ({title, blocks_path}) => {
+export const Main = ({ title, blocksPath, folderPath }) => {
     let blocksToRender;
-    if (blocks_path) {
-        const blockData = require(`./data/${blocks_path}`);
-        blocksToRender = blockData.map(blockDatum => <Block blockData={blockDatum}/>)
+    if (blocksPath) {
+        const blockData = require(`../data/${blocksPath}`);
+        blocksToRender = blockData.map(blockDatum => {
+            const { name, images, slug, rating, summary } = blockDatum;
+            const image = images[0];
+            const link = slug;
+            const options = { rating, summary }
+            return <Block title={name} image={image} link={link} options={options} />
+    })
     }
     return (
         <main>

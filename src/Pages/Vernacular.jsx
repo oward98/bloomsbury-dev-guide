@@ -1,6 +1,6 @@
 import React from 'react';
 import { Main } from './Main';
-import { SideNav } from './SideNav';
+import { SideNav } from '../Components/SideNav/SideNav';
 import { Routes } from '../Routes/Routes';
 const vernacularRoutesData = [
     {
@@ -73,7 +73,8 @@ const vernacularRoutesData = [
                 link: '/vernacular/building-typology/terrace',
                 component: <Main />,
                 props: {
-                    title: 'Terrace'
+                    title: 'Terrace',
+                    blocksPath: 'vernacular/terraces.json'
                 }
             },
             {

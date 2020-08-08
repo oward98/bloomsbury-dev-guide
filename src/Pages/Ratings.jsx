@@ -1,5 +1,5 @@
 import React from 'react';
-import { SideNav } from './SideNav';
+import { SideNav } from '../Components/SideNav/SideNav';
 import { Routes } from '../Routes/Routes';
 import { Main } from './Main';
 import { Building } from '../Components/Building/Building';
@@ -7,16 +7,16 @@ import { Building } from '../Components/Building/Building';
 const ratingsRoutesData = [
     {
         title: 'Redevelopment',
-        link: '/ratings/redevelopment',
+        link: '/ratings/redevelopment/',
         component: <Main />,
         props: {
             title: 'Redevelopment',
-            blocks_path: 'ratings/redevelopment.json'
+            blocksPath: 'ratings/redevelopment.json'
         }
     },
     {
         title: 'Alterations',
-        link: '/ratings/alterations',
+        link: '/ratings/alterations/',
         component: <Main />,
         props: {
             title: 'Alterations'
@@ -24,7 +24,7 @@ const ratingsRoutesData = [
     },
     {
         title: 'Shopfronts',
-        link: '/ratings/shopfronts',
+        link: '/ratings/shopfronts/',
         component: <Main />,
         props: {
             title: 'Shopfronts'
@@ -32,7 +32,7 @@ const ratingsRoutesData = [
     },
     {
         title: 'Streetworks',
-        link: '/ratings/streetworks',
+        link: '/ratings/streetworks/',
         component: <Main />,
         props: {
             title: 'Streetworks'
@@ -40,8 +40,7 @@ const ratingsRoutesData = [
     }
 ]
 
-
-const buildingsData = require('./data/ratings/redevelopment.json');
+const buildingsData = require('../data/ratings/redevelopment.json');
 const buildingsRoutesData = buildingsData.map(buildingObject => {
     return ({
         title: buildingObject.name,

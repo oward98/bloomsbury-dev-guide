@@ -1,6 +1,6 @@
 import React from 'react';
 import { Test } from '../Components/Test/Test';
-import { SideNav } from './SideNav';
+import { SideNav } from '../Components/SideNav/SideNav';
 import { Routes } from '../Routes/Routes';
  
 const principlesRoutesData = [

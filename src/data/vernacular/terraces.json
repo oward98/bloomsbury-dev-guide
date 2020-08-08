@@ -1,0 +1,101 @@
+[
+    {
+        "name": "Museum Street",
+        "images": [
+            {
+                "url": "/terraces/museumStreet1.jpg",
+                "alt": "Museum Street",
+                "caption": "Museum Street"
+            }
+        ],
+        "summary": "Late 17th century terraces on Museum Street, in the Bloomsbury Conservation Area."
+    },
+    {
+        "name": "Great Russell Street",
+        "images": [
+            {
+                "url": "/terraces/greatRussellStreet2.jpg",
+                "alt": "Great Russell Street",
+                "caption": "Great Russell Street"
+            }
+        ],
+        "summary": "Late 17th century terraces on Great Russell Street, in the Bloomsbury Conservation Area."
+    },
+    {
+        "name": "Willoughby Street",
+        "images": [
+            {
+                "url": "/terraces/willoughbyStreet1.jpg",
+                "alt": "Willoughby Street",
+                "caption": "Willoughby Street"
+            }
+        ],
+        "summary": ""
+    },
+    {
+        "name": "Gilbert Street",
+        "images": [
+            {
+                "url": "/terraces/gilbertStreet3.jpg",
+                "alt": "Gilbert Street",
+                "caption": "Gilbert Street"
+            }
+        ],
+        "summary": "A rare example of Italianate early Georgian terracing on Gilbert Street. While all classical architecture draws on Italian examples to some degree, many buildings on Gilbert Street are so unusually Italian it is likely it was designed by an Italian architect."
+    },
+    {
+        "name": "John Street",
+        "images": [
+            {
+                "url": "/terraces/johnStreet2.jpg",
+                "alt": "John Street",
+                "caption": "John Street"
+            }
+        ],
+        "summary": ""
+    },
+    {
+        "name": "Southampton Row",
+        "images": [
+            {
+                "url": "/terraces/southamptonRow1.jpg",
+                "alt": "Southampton Row",
+                "caption": "Southampton Row"
+            }
+        ],
+        "summary": ""
+    },
+    {
+        "name": "Euston Road",
+        "images": [
+            {
+                "url": "/terraces/eustonRoad1.jpg",
+                "alt": "Euston Road",
+                "caption": "Euston Road"
+            }
+        ],
+        "summary": "A mixture of terraced housing, ramshackle and run-down on Euston Road, on the outskirts of the Fitzroy Square CA"
+    },
+    {
+        "name": "Bloomsbury Street",
+        "images": [
+            {
+                "url": "/terraces/bloomsburyStreet2.jpg",
+                "alt": "Bloomsbury Street",
+                "caption": "Bloomsbury Street"
+            }
+        ],
+        "summary": ""
+    },
+    {
+        "name": "Coptic Street",
+        "images": [
+            {
+                "url": "/terraces/copticStreet1.jpg",
+                "alt": "Coptic Street",
+                "caption": "Coptic Street"
+            }
+        ],
+        "summary": "Three different stages of facade cleaning, side-by-side. The Victorian Era cloaked London in soot and grime for a century, and many pre-Victorian buildings have not been cleaned as it is generally thought inappropriate to do so. But here three terraces side-by-side show the different stages of facade restoration. The left is uncleaned, the middle has been cleaned and repointed at some point in the past only to re-accumulate grime, while the right has been freshly cleaned and repointed."
+    }
+]
