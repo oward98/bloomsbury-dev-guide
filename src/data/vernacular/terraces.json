@@ -8,7 +8,7 @@
                 "caption": "Museum Street"
             }
         ],
-        "summary": "Late 17th century terraces on Museum Street, in the Bloomsbury Conservation Area."
+        "summary": "An unusually detailed set of facades on Museum Street. Much of the architecture around the British Museum  departs significantly from the vernacular of Georgian Bloomsbury."
     },
     {
         "name": "Great Russell Street",
@@ -41,7 +41,7 @@
                 "caption": "Gilbert Street"
             }
         ],
-        "summary": "A rare example of Italianate early Georgian terracing on Gilbert Street. While all classical architecture draws on Italian examples to some degree, many buildings on Gilbert Street are so unusually Italian it is likely it was designed by an Italian architect."
+        "summary": "A rare example of Italianate early Georgian terracing on Gilbert Street. While all classical architecture draws on Italian examples to some degree, many buildings on Gilbert Street are so unusually Italian it is likely they were designed by an Italian architect."
     },
     {
         "name": "John Street",
@@ -74,7 +74,7 @@
                 "caption": "Euston Road"
             }
         ],
-        "summary": "A mixture of terraced housing, ramshackle and run-down on Euston Road, on the outskirts of the Fitzroy Square CA"
+        "summary": "A mixture of terraced housing, ramshackle and run-down on Euston Road, on the outskirts of the Fitzroy Square CA. The accumulation of mismatched historic alterations is a point of interest in itself."
     },
     {
         "name": "Bloomsbury Street",
@@ -97,5 +97,27 @@
             }
         ],
         "summary": "Three different stages of facade cleaning, side-by-side. The Victorian Era cloaked London in soot and grime for a century, and many pre-Victorian buildings have not been cleaned as it is generally thought inappropriate to do so. But here three terraces side-by-side show the different stages of facade restoration. The left is uncleaned, the middle has been cleaned and repointed at some point in the past only to re-accumulate grime, while the right has been freshly cleaned and repointed."
+    },
+    {
+        "name": "Coptic Street",
+        "images": [
+            {
+                "url": "/terraces/copticStreet2.jpg",
+                "alt": "Coptic Street",
+                "caption": "Coptic Street"
+            }
+        ],
+        "summary": "Cleaned and repointed. How a Georgian terrace would have looked when freshly built."
+    },
+    {
+        "name": "New Oxford Street",
+        "images": [
+            {
+                "url": "/terraces/newOxfordStreet1.jpg",
+                "alt": "New Oxford Street",
+                "caption": "New Oxford Street"
+            }
+        ],
+        "summary": "Victorian terracing is rarer throughout the conservation areas, but there are some good examples. These examples show the trend for greater detailing on the facade, and bulkier proportions. Note the curious diaper work on the leftmost wall."
     }
 ]
