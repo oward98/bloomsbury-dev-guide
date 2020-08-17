@@ -1,6 +1,8 @@
 [
     {
         "name": "Museum Street",
+        "pinterest": "",
+        "full-size-link": "", 
         "images": [
             {
                 "url": "/terraces/museumStreet1.jpg",
@@ -12,6 +14,8 @@
     },
     {
         "name": "Great Russell Street",
+        "pinterest": "",
+        "full-size-link": "", 
         "images": [
             {
                 "url": "/terraces/greatRussellStreet2.jpg",
@@ -23,6 +27,8 @@
     },
     {
         "name": "Willoughby Street",
+        "pinterest": "",
+        "full-size-link": "", 
         "images": [
             {
                 "url": "/terraces/willoughbyStreet1.jpg",
@@ -34,6 +40,8 @@
     },
     {
         "name": "Gilbert Street",
+        "pinterest": "",
+        "full-size-link": "", 
         "images": [
             {
                 "url": "/terraces/gilbertStreet3.jpg",
@@ -45,6 +53,8 @@
     },
     {
         "name": "John Street",
+        "pinterest": "",
+        "full-size-link": "", 
         "images": [
             {
                 "url": "/terraces/johnStreet2.jpg",
@@ -56,6 +66,8 @@
     },
     {
         "name": "Southampton Row",
+        "pinterest": "",
+        "full-size-link": "", 
         "images": [
             {
                 "url": "/terraces/southamptonRow1.jpg",
@@ -67,6 +79,8 @@
     },
     {
         "name": "Euston Road",
+        "pinterest": "",
+        "full-size-link": "", 
         "images": [
             {
                 "url": "/terraces/eustonRoad1.jpg",
@@ -78,6 +92,8 @@
     },
     {
         "name": "Bloomsbury Street",
+        "pinterest": "",
+        "full-size-link": "", 
         "images": [
             {
                 "url": "/terraces/bloomsburyStreet2.jpg",
@@ -89,6 +105,8 @@
     },
     {
         "name": "Coptic Street",
+        "pinterest": "",
+        "full-size-link": "", 
         "images": [
             {
                 "url": "/terraces/copticStreet1.jpg",
@@ -100,6 +118,8 @@
     },
     {
         "name": "Coptic Street",
+        "pinterest": "",
+        "full-size-link": "", 
         "images": [
             {
                 "url": "/terraces/copticStreet2.jpg",
@@ -111,6 +131,8 @@
     },
     {
         "name": "New Oxford Street",
+        "pinterest": "",
+        "full-size-link": "", 
         "images": [
             {
                 "url": "/terraces/newOxfordStreet1.jpg",

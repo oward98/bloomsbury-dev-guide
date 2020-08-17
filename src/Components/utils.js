@@ -27,7 +27,7 @@ export const calculateScore = rating => {
     return parseFloat(finalScore);
 }
 
-export const createImage = imageObject => <img src={imageObject.url} alt={imageObject.alt} />
+export const createImage = imageObject => <img src={imageObject.url} alt={imageObject.alt} loading={'lazy'}/>
 
 export const prettifyRating = (rating) => {
     const prettifiedRatings = {

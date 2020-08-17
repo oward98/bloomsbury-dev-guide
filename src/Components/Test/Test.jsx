@@ -5,7 +5,7 @@ import './Test.css';
 const importanceColours = {
     'Critical': 'red',
     'High': 'coral',
-    'Medium': 'rgb(146, 155, 16)',
+    'Medium': 'goldenrod',
     'Low': 'green'
 }
 
@@ -15,7 +15,7 @@ export const Test = ({title, importance, description}) => {
         <span>Importance: <mark style={{color: colour}}>{importance}</mark></span>
     ];
     return (
-        <main>
+        <main className='fillSpace sidesPadded'>
             <Header spans={headerSpans}>{title}</Header>
             <article>
                 <p>{description}</p>

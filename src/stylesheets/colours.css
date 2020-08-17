@@ -1,0 +1,15 @@
+.critical {
+    color: red
+}
+
+.high {
+    color: coral;
+}
+
+.medium {
+    color: goldenrod;
+}
+
+.low {
+    color: green;
+}

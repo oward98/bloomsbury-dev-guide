@@ -26,11 +26,9 @@
     font-weight: normal;
 }
 
-
 .fullWidthNav {
     display: flex;
     padding: 0 var(--global-margin);
-
 }
 
 .fullWidthNav h1 {
@@ -78,8 +76,4 @@
 
 #appHeader a {
     color: rgb(29, 29, 29);
-}
-
-#appHeader .selected a {
-    
 }

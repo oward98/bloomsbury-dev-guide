@@ -1,7 +1,7 @@
 import React from 'react';
-import { Main } from './Main';
-import { SideNav } from '../Components/SideNav/SideNav';
-import { Routes } from '../Routes/Routes';
+import { Main } from '../Main/Main';
+import { SideNav } from '../../Components/SideNav/SideNav';
+import { Routes } from '../../Routes/Routes';
 const vernacularRoutesData = [
     {
         title: 'Materials',
@@ -461,9 +461,11 @@ const vernacularRoutesData = [
 
 export const Vernacular = () => {
     return (
-        <div id='mainDiv'>
+        <div id='mainDiv' className='sidesPadded'>
             <SideNav heading='Vernacular' routesData={vernacularRoutesData}/>
-            <Routes routesData={vernacularRoutesData}/>  
+            <div className='sidesPadded'>
+                <Routes routesData={vernacularRoutesData}/> 
+            </div>
         </div>  
     )
 }

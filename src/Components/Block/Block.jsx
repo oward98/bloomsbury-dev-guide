@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom';
 import { calculateScore, createImage } from '../utils';
 import StarRatings from 'react-star-ratings';
 
-export const Block = ({title, image, link, options}) => {
+export default ({title, image, link, options}) => {
     const imageToRender = createImage(image);
     const { rating, summary } = options;
     let ratingToRender = null;
@@ -17,17 +17,17 @@ export const Block = ({title, image, link, options}) => {
         descriptionToRender = <p>{summary}</p>
     }
     return (
-        <Link to={link}>
-            <section className='exampleBlock'>
-                <div className='exampleBanner'>
-                    {imageToRender}
-                </div>
-                <header>
-                    <h2>{title}</h2>
-                    {ratingToRender}
-                </header>
-                {descriptionToRender}
-            </section>
-        </Link>
+            <Link to={link}>
+                <section className='exampleBlock'>
+                    <div className='exampleBanner'>
+                        {imageToRender}
+                    </div>
+                    <header>
+                        <h2>{title}</h2>
+                        {ratingToRender}
+                    </header>
+                    {descriptionToRender}
+                </section>
+            </Link>
     )
 }

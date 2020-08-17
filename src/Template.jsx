@@ -4,7 +4,7 @@ import { useLocation, Link } from 'react-router-dom';
 const isCurrentPage = (path, pagename) => {
     if (pagename==='home') {
         return path==='/';
-    } else if (pagename==='vernacular' || pagename==='principles' || pagename==='ratings') {
+    } else if (pagename==='vernacular' || pagename==='tests' || pagename==='ratings') {
         return path.includes(pagename);
     } else {
         throw new Error(`isCurrentPage passed invalid argument. Must be one of: 'home', 'principles', 'ratings', 'vernacular' `);
@@ -21,14 +21,14 @@ export const Template = () => {
                     <li className={isCurrentPage(path, 'home') ? 'selected' : 'unselected'}>
                         <Link to='/'>Home</Link>
                     </li>
-                    <li className={isCurrentPage(path, 'principles') ? 'selected' : 'unselected'}>
-                        <Link to='/principles'>Tests</Link>
+                    <li className={isCurrentPage(path, 'tests') ? 'selected' : 'unselected'}>
+                        <Link to='/tests/'>Tests</Link>
                     </li>
                     <li className={isCurrentPage(path, 'ratings') ? 'selected' : 'unselected'}>
-                        <Link to='/ratings'>Development Ratings</Link>
+                        <Link to='/ratings/'>Development Ratings</Link>
                     </li>
                     <li className={isCurrentPage(path, 'vernacular') ? 'selected' : 'unselected'}>
-                        <Link to='/vernacular'>Vernacular</Link>
+                        <Link to='/vernacular/'>Vernacular</Link>
                     </li>
                     </ul>
                 </nav>

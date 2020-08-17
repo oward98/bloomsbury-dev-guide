@@ -1,3 +1,7 @@
 mark {
     background-color: white;
 }
+
+.fillSpace {
+    flex-grow: 1;
+}

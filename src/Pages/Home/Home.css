@@ -1,0 +1,19 @@
+#homeSummary {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: 0 -20px;
+}
+
+#home p {
+    margin-top: 5px;
+    font-size: 1.2em;
+    text-align: justify;
+}
+
+#homeSummary article {
+    flex-basis: 0;
+    flex-grow: 1;
+    margin: 20px;
+    min-width: 200px;
+}
