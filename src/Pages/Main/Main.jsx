@@ -11,14 +11,12 @@ export const Main = ({ title, blocksPath }) => {
             const { name, images, slug, rating, summary } = blockDatum;
             const image = images[0];
             const link = slug;
-
-            console.log(link);
             const options = { rating, summary }
             return <Block title={name} image={image} link={link} options={options} />
     })
     }
     return (
-        <main>
+        <main className='fillSpace'>
             <Header>{title}</Header>
             <Columns columnWidth='300px'>
                 {blocksToRender}

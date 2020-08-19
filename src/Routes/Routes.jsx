@@ -20,3 +20,13 @@ export const Routes = ({routesData}) => {
         </>
     )
 }
+
+/*
+routesData = [
+    {
+        link: absolute path,
+        component: component to render,
+        props: props to pass to component
+    }
+]
+*/

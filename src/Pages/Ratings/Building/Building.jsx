@@ -1,8 +1,8 @@
 import React from 'react';
-import { calculateScore } from '../utils';
-import { ImageMasonry } from '../ImageMasonry/ImageMasonry';
-import { RatingsSidebar } from '../RatingsSidebar/RatingsSidebar'; 
-import { Header } from '../Header/Header';
+import { calculateScore } from '../../../Components/utils';
+import { ImageMasonry } from '../../../Components/ImageMasonry/ImageMasonry';
+import { RatingsSidebar } from '../../../Components/RatingsSidebar/RatingsSidebar'; 
+import { Header } from '../../../Components/Header/Header';
 import './Building.css';
 import StarRatings from 'react-star-ratings';
 

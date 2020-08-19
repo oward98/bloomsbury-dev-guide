@@ -15,6 +15,7 @@ function App() {
         <Route path='/tests/' component={Tests} />
         <Route path='/ratings/' component={Ratings} />
         <Route path='/vernacular/' component={Vernacular} />
+        {/*each of the above has nested routes*/}
       </>
     </BrowserRouter>
   );

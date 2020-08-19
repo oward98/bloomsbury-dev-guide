@@ -7,7 +7,6 @@ export const SideNav = ({ routesData }) => {
     const decideClassName = linkData => path.includes(linkData.link) ? "selected" : "unselected";
 
     const makeLink = linkData => <Link to={linkData.link}>{linkData.title}</Link>
-    
     return (
         <nav className='sideNav sidebar'>
             <ul id='mainSideList'>
@@ -37,11 +36,11 @@ const sideNavData = [
     {
         title,
         link,
-        subheadings: [
+        subtitles: [
             {
-                linkTitle,
-                slug
-                etc
+                title,
+                link
+            }
         }
         ]
     },

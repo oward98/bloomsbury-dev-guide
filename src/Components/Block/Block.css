@@ -30,3 +30,7 @@
 .exampleBlock p {
     margin: 0;
 }
+
+.blockLink:hover {
+    filter: brightness(105%);
+}

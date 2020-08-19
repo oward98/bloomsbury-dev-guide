@@ -463,9 +463,7 @@ export const Vernacular = () => {
     return (
         <div id='mainDiv' className='sidesPadded'>
             <SideNav heading='Vernacular' routesData={vernacularRoutesData}/>
-            <div className='sidesPadded'>
-                <Routes routesData={vernacularRoutesData}/> 
-            </div>
+            <Routes routesData={vernacularRoutesData}/>
         </div>  
     )
 }

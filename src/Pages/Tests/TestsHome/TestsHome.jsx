@@ -1,10 +1,10 @@
 import React from 'react';
 import { Header } from '../../../Components/Header/Header';
-import './TestHome.css';
+import './TestsHome.css';
 
 export default () => {
     return (
-        <main id='testHome' className='sidesPadded fillSpace'>
+        <main id='testHome' className='fillSpace'>
             <div>
                 <Header>Tests</Header>
                 <section>

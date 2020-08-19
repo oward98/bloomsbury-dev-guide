@@ -1,3 +1,7 @@
-#mainHeader h1 {
+#pageHeader {
+    margin-bottom: 10px;
+}
+
+#pageHeader h1 {
     margin-bottom: 0;
 }

@@ -1,5 +1,5 @@
 import React from 'react';
-import { Header } from '../Header/Header';
+import { Header } from '../../../Components/Header/Header';
 import './Test.css';
 
 const importanceColours = {
@@ -9,16 +9,16 @@ const importanceColours = {
     'Low': 'green'
 }
 
-export const Test = ({title, importance, description}) => {
+export const Test = ({name, importance, summary}) => {
     const colour = importanceColours[importance];
     const headerSpans = [
         <span>Importance: <mark style={{color: colour}}>{importance}</mark></span>
     ];
     return (
-        <main className='fillSpace sidesPadded'>
-            <Header spans={headerSpans}>{title}</Header>
+        <main className='fillSpace'>
+            <Header spans={headerSpans}>{name}</Header>
             <article>
-                <p>{description}</p>
+                <p>{summary}</p>
             </article>
         </main>
     )

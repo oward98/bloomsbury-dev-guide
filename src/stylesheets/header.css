@@ -66,12 +66,20 @@
 
 #mainNav {
     background-color: white;
-    border-bottom: 1px solid gray;
+    border-bottom: 1px solid lightgray;
     opacity: 0.9;
 }
 
+#mainNav li {
+    transition: all 0.25s ease;
+}
+
 #mainNav li.selected {
-    background-color: rgb(228, 230, 231);
+    background-color: lightgrey;
+}
+
+#mainNav li:hover {
+    background-color: rgb(236, 235, 235);
 }
 
 #appHeader a {

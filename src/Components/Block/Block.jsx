@@ -17,7 +17,7 @@ export default ({title, image, link, options}) => {
         descriptionToRender = <p>{summary}</p>
     }
     return (
-            <Link to={link}>
+            <Link to={link} className='blockLink'>
                 <section className='exampleBlock'>
                     <div className='exampleBanner'>
                         {imageToRender}

@@ -24,6 +24,11 @@ body {
 a {
     color: var(--turqoise);
     text-decoration: none;
+    transition: all 0.25s ease;
+}
+
+a:hover {
+    filter: brightness(150%);
 }
 
 * {
