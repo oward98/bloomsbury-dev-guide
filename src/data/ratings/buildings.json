@@ -52,19 +52,21 @@
             }
         ],
         "rating": {
-            "scale": 5,
-            "mass": 5,
-            "quality": 5,
-            "conservation": 5,
-            "materials": 5,
-            "solid_to_void": 5,
-            "proportions": 5,
-            "balance": 5,
-            "use": 5,
-            "plot_width": 5,
-            "vertical_hierarchy": 5,
-            "relationship_to_street": 4,
-            "roofscape": 5
+            "scale": 2,
+            "materials": 2,
+            "conservation": 1,
+            "solid-to-void-ratio": 2,
+            "mass": 2,
+            "beauty-and-execution": 2,
+            "proportions": 2,
+            "balance-and-symmetry": 2,
+            "plot-width": 2,
+            "relationship-to-street": 1,
+            "roofscape": 2,
+            "use": 2,
+            "detailing": 1,
+            "street-environment": 0,
+            "vertical-hierarchy": 1
         }
     },
     {
@@ -85,19 +87,21 @@
             }
         ],
         "rating": {
-            "scale": 5,
-            "mass": 5,
-            "quality": 5,
-            "conservation": 0,
-            "materials": 5,
-            "solid_to_void": 4,
-            "proportions": 4,
-            "balance": 4,
-            "use": 4,
-            "plot_width": 5,
-            "vertical_hierarchy": 3,
-            "relationship_to_street": 4,
-            "roofscape": 4
+            "scale": 2,
+            "materials": 2,
+            "conservation": -1,
+            "solid-to-void-ratio": 1,
+            "mass": 1,
+            "beauty-and-execution": 2,
+            "proportions": 1,
+            "balance-and-symmetry": 1,
+            "plot-width": 2,
+            "relationship-to-street": -1,
+            "roofscape": 2,
+            "use": 1,
+            "detailing": 0,
+            "street-environment": 1,
+            "vertical-hierarchy": 0
         }
     },
     {
@@ -118,19 +122,21 @@
             }
         ],
         "rating": {
-            "scale": 5,
-            "mass": 4,
-            "quality": 3,
-            "conservation": 5,
-            "materials": 4,
-            "solid_to_void": 5,
-            "proportions": 5,
-            "balance": 4,
-            "use": 5,
-            "plot_width": 3,
-            "vertical_hierarchy": 5,
-            "relationship_to_street": 3,
-            "roofscape": 3
+            "scale": 2,
+            "materials": 1,
+            "conservation": 0,
+            "solid-to-void-ratio": 0,
+            "mass": 0,
+            "beauty-and-execution": 1,
+            "proportions": 0,
+            "balance-and-symmetry": 1,
+            "plot-width": 0,
+            "relationship-to-street": 0,
+            "roofscape": -1,
+            "use": 1,
+            "detailing": 0,
+            "street-environment": 0,
+            "vertical-hierarchy": 0
         }
     },
     {
@@ -151,19 +157,21 @@
             }
         ],
         "rating": {
-            "scale": 2,
-            "mass": 2,
-            "quality": 1,
-            "conservation": 5,
-            "materials": 0,
-            "solid_to_void": 5,
-            "proportions": 3,
-            "balance": 4,
-            "use": 4,
-            "plot_width": 4,
-            "vertical_hierarchy": 4,
-            "relationship_to_street": 3,
-            "roofscape": 1
+            "scale": -1,
+            "materials": -2,
+            "conservation": 0,
+            "solid-to-void-ratio": 1,
+            "mass": 0,
+            "beauty-and-execution": -2,
+            "proportions": 0,
+            "balance-and-symmetry": 0,
+            "plot-width": 0,
+            "relationship-to-street": -1,
+            "roofscape": 0,
+            "use": 1,
+            "detailing": -1,
+            "street-environment": -1,
+            "vertical-hierarchy": 0
         }
     },
     {
@@ -184,19 +192,21 @@
             }
         ],
         "rating": {
-            "scale": 1,
-            "mass": 3,
-            "quality": 3,
-            "conservation": 0,
-            "materials": 5,
-            "solid_to_void": 5,
-            "proportions": 4,
-            "balance": 4,
-            "use": 2,
-            "plot_width": 0,
-            "vertical_hierarchy": 4,
-            "relationship_to_street": 4,
-            "roofscape": 3
+            "scale": -2,
+            "materials": 1,
+            "conservation": -1,
+            "solid-to-void-ratio": 1,
+            "mass": 1,
+            "beauty-and-execution": -1,
+            "proportions": 0,
+            "balance-and-symmetry": 1,
+            "plot-width": -2,
+            "relationship-to-street": 1,
+            "roofscape": 0,
+            "use": 0,
+            "detailing": 0,
+            "street-environment": 0,
+            "vertical-hierarchy": 0
         }
     },
     {
@@ -217,19 +227,21 @@
             }
         ],
         "rating": {
-            "scale": 0,
-            "mass": 0,
-            "quality": 2,
-            "conservation": 0,
-            "materials": 3,
-            "solid_to_void": 3,
-            "proportions": 3,
-            "balance": 1,
-            "use": 4,
-            "plot_width": 0,
-            "vertical_hierarchy": 0,
-            "relationship_to_street": 2,
-            "roofscape": 0
+            "scale": -2,
+            "materials": -1,
+            "conservation": -2,
+            "solid-to-void-ratio": 1,
+            "mass": -2,
+            "beauty-and-execution": -2,
+            "proportions": -1,
+            "balance-and-symmetry": -1,
+            "plot-width": -2,
+            "relationship-to-street": 0,
+            "roofscape": -1,
+            "use": 1,
+            "detailing": -1,
+            "street-environment": 1,
+            "vertical-hierarchy": -1
         }
     },
     {
@@ -250,19 +262,21 @@
             }
         ],
         "rating": {
-            "scale": 0,
-            "mass": 0,
-            "quality": 2,
-            "conservation": 2,
-            "materials": 2,
-            "solid_to_void": 1,
-            "proportions": 2,
-            "balance": 2,
-            "use": 1,
-            "plot_width": 2,
-            "vertical_hierarchy": 1,
-            "relationship_to_street": 1,
-            "roofscape": 0
+            "scale": -2,
+            "materials": -2,
+            "conservation": -1,
+            "solid-to-void-ratio": -2,
+            "mass": -1,
+            "beauty-and-execution": -2,
+            "proportions": -1,
+            "balance-and-symmetry": 0,
+            "plot-width": -1,
+            "relationship-to-street": 0,
+            "roofscape": -1,
+            "use": -1,
+            "detailing": -1,
+            "street-environment": 0,
+            "vertical-hierarchy": 0
         }
     }
 ]

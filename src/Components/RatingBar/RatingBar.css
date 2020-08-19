@@ -1,0 +1,39 @@
+.ratings {
+    --positive: rgb(102, 134, 102);
+    --neutral: rgb(160, 159, 159);
+    --negative: rgb(129, 90, 90);
+}
+
+.ratingBar div {
+    display: inline-block;
+    height: 100%;
+    vertical-align: top;
+}
+
+.ratingBar .positive {
+    background-color: var(--positive);
+}
+
+.ratingBar .neutral {
+    background-color: var(--neutral);
+}
+
+.ratingBar .negative {
+    background-color: var(--negative);
+}
+
+.ratingPercentages span {
+    margin-right: 7px;
+}
+
+.ratingPercentages .positive {
+    color: var(--positive);
+}
+
+.ratingPercentages .neutral {
+    color: var(--neutral);
+}
+
+.ratingPercentages .negative {
+    color: var(--negative);
+}

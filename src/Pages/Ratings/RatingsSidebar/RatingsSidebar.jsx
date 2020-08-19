@@ -1,5 +1,5 @@
 import React from 'react';
-import { prettifyRating } from '../utils';
+import { prettifyRating } from '../../../Components/utils';
 import StarRatings from 'react-star-ratings';
 import './RatingsSidebar.css';
 

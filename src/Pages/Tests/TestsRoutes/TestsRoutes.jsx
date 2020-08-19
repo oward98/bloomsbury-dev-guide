@@ -6,7 +6,7 @@ import { Routes } from '../../../Routes/Routes';
 //draws all data from tests.json
 
 export default () => {
-    const testData = require('../../../data/tests.json');
+    const testData = require('../../../data/tests/tests.json');
     //populate categories
     let categories = [];
     testData.forEach(test => {

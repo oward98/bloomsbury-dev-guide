@@ -34,3 +34,7 @@
 .blockLink:hover {
     filter: brightness(105%);
 }
+
+.exampleBlock .ratingBar {
+    margin-top: 7px;
+}

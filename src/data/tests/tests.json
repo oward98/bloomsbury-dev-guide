@@ -3,7 +3,7 @@
         "name": "Scale",
         "slug": "scale",
         "importance": "Critical",
-        "weight": 1,
+        "weight": 15,
         "degree-of-locality": 1,
         "summary": "The size of the development as compared to the immediate historic context."
     },
@@ -11,7 +11,7 @@
         "name": "Materials",
         "slug": "materials",
         "importance": "Critical",
-        "weight": 1,
+        "weight": 15,
         "degree-of-locality": 0.5,
         "summary": "The degree to which the development is constructed in materials drawn from the historic context."
     },
@@ -19,7 +19,7 @@
         "name": "Conservation",
         "slug": "conservation",
         "importance": "Critical",
-        "weight": 1,
+        "weight": 15,
         "degree-of-locality": 1,
         "summary": "The degree to which pre-existing heritage is actively enhanced and restored, or damaged and destroyed."
     },
@@ -27,7 +27,7 @@
         "name": "Solid-to-Void Ratio",
         "slug": "solid-to-void-ratio",
         "importance": "Critical",
-        "weight": 1,
+        "weight": 15,
         "degree-of-locality": 0.5,
         "summary": "Essentially the degree to which the facade is glazed."
     },
@@ -35,7 +35,7 @@
         "name": "Mass",
         "slug": "mass",
         "importance": "High",
-        "weight": 0.8,
+        "weight": 5,
         "degree-of-locality": 0.5,
         "summary": "The way in which the scale of a building is articulated, as compared to the historic context."
     },
@@ -43,7 +43,7 @@
         "name": "Beauty / Execution",
         "slug": "beauty-and-execution",
         "importance": "High",
-        "weight": 0.8,
+        "weight": 8,
         "degree-of-locality": 0,
         "summary": "The beauty of a development; the intrinsic quality of the architecture, and the execution of design."
     },
@@ -51,7 +51,7 @@
         "name": "Proportions",
         "slug": "proportions",
         "importance": "High",
-        "weight": 0.8,
+        "weight": 5,
         "degree-of-locality": 0.5,
         "summary": "The harmonious use of proportions in vertical and horizontal articulation, drawing upon the historic context."
     },
@@ -59,7 +59,7 @@
         "name": "Balance / Symmetry",
         "slug": "balance-and-symmetry",
         "importance": "Medium",
-        "weight": 0.5,
+        "weight": 6,
         "degree-of-locality": 0.5,
         "summary": "The degree to which symmetry is employed, and how well the composition as a whole is balanced."   
     },
@@ -67,7 +67,7 @@
         "name": "Plot Width",
         "slug": "plot-width",
         "importance": "Medium",
-        "weight": 0.5,
+        "weight": 3,
         "degree-of-locality": 1,
         "summary": "The apparent plot widths / vertical seperations compared to the immediate historic context"
     },
@@ -75,7 +75,7 @@
         "name": "Relationship to Street",
         "slug": "relationship-to-street",
         "importance": "Medium",
-        "weight": 0.5,
+        "weight": 4,
         "summary": "The manner in which the development relates to the street and street-level, informed by historic precedent.",
         "degree-of-locality": 0.5
     },
@@ -83,7 +83,7 @@
         "name": "Roofscape",
         "slug": "roofscape",
         "importance": "Medium",
-        "weight": 0.5,
+        "weight": 3,
         "summary": "The degree to which the roofscape reflects that of the historic environment.",
         "degree-of-locality": 0.5
     },
@@ -91,7 +91,7 @@
         "name": "Use",
         "slug": "use",
         "importance": "Medium",
-        "weight": 0.5,
+        "weight": 4,
         "summary": "The degree to which the use of the development reflects that of the local historic context.",
         "degree-of-locality": 0.8
     },
@@ -99,7 +99,7 @@
         "name": "Detailing",
         "slug": "detailing",
         "importance": "Low",
-        "weight": 0.3,
+        "weight": 2,
         "summary": "The appropriate use of detailing to add interest to a facade.",
         "degree-of-locality": 0.5
     },
@@ -107,7 +107,7 @@
         "name": "Street Environment",
         "slug": "street-environment",
         "importance": "Low",
-        "weight": 0.3,
+        "weight": 2,
         "summary": "The positive contribution made to the street environment, both private and public.",
         "degree-of-locality": 0.5
     },
@@ -115,7 +115,7 @@
         "name": "Vertical Hierarchy",
         "slug": "vertical-hierarchy",
         "importance": "Low",
-        "weight": 0.2,
+        "weight": 1,
         "summary": "The use of height and scale to express varying importance.",
         "degree-of-locality": 0.5
     }

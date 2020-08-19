@@ -1,16 +1,16 @@
 import React from 'react';
-import { calculateScore } from '../../../Components/utils';
+import algorithm from '../helpers/algorithm';
 import { ImageMasonry } from '../../../Components/ImageMasonry/ImageMasonry';
-import { RatingsSidebar } from '../../../Components/RatingsSidebar/RatingsSidebar'; 
+import RatingBar from '../../../Components/RatingBar/RatingBar';
+import { RatingsSidebar } from '../RatingsSidebar/RatingsSidebar'; 
 import { Header } from '../../../Components/Header/Header';
 import './Building.css';
-import StarRatings from 'react-star-ratings';
 
 export const Building = ({buildingObject}) => {
     const { name, year, address, description, architect, images, rating } = buildingObject;
-    const totalScore = calculateScore(rating);
+    const ratingToPass = algorithm(rating);
     const headerSpans = [
-        <span><StarRatings rating={totalScore} starDimension='15px' starSpacing='2px' starRatedColor='rgb(201, 174, 22)'/> {totalScore}</span>,
+        <span><RatingBar rating={ratingToPass} width={150} height={2}/></span>,
         <span>{address} &middot; {architect} &middot; {year}</span>
     ];
     return (

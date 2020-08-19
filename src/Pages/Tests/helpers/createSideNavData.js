@@ -1,7 +1,7 @@
 //draws all data from tests.json, relies upon SideNav component implementation
 
 export default () => {
-    const testData = require('../../../data/tests.json');
+    const testData = require('../../../data/tests/tests.json');
     //collect categories
     let importanceCategories = [];
     testData.forEach(test => {
