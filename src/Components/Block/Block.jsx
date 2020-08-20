@@ -2,8 +2,8 @@ import React from 'react';
 import './Block.css';
 import { Link } from 'react-router-dom';
 import { calculateScore, createImage } from '../utils';
-import algorithm from '../../Pages/Ratings/helpers/algorithm';
-import RatingBar from '../RatingBar/RatingBar';
+import { totalScore } from '../../Pages/Ratings/helpers/algorithm';
+import { TotalRatingBar } from '../RatingBar/RatingBar';
 
 export default ({title, image, link, options}) => {
     const imageToRender = createImage(image);
@@ -12,7 +12,7 @@ export default ({title, image, link, options}) => {
     let neutralScore;
     let negativeScore;
     if (rating) {
-        const score = algorithm(rating);
+        const score = totalScore(rating);
         positiveScore = score.positiveScore;
         neutralScore = score.neutralScore;
         negativeScore = score.negativeScore;
@@ -30,7 +30,7 @@ export default ({title, image, link, options}) => {
                     </div>
                     <header>
                         <h2>{title}</h2>
-                        <span><RatingBar rating={{positiveScore, neutralScore, negativeScore}} width={150} height={2}/></span>
+                        {rating && <span><TotalRatingBar rating={{positiveScore, neutralScore, negativeScore}} width={150} height={2}/></span>}
                     </header>
                     {descriptionToRender}
                 </section>

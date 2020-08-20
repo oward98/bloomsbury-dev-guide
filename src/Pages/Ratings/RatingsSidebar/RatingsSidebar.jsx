@@ -1,13 +1,14 @@
 import React from 'react';
-import { prettifyRating } from '../../../Components/utils';
-import StarRatings from 'react-star-ratings';
+import { detailedScores, calculateMaxIndividualScore } from '../helpers/algorithm';
 import './RatingsSidebar.css';
+import { IndividualRatingBar } from '../../../Components/RatingBar/RatingBar';
 
 export const RatingsSidebar = ({rating}) => {
-    const ratingListElements = Object.keys(rating).map(ratingName => {
-        const score = rating[ratingName];
-        const stars = <StarRatings rating={score} starDimension='12px' starSpacing='1px' starRatedColor='rgb(201, 174, 22)' />
-        return <li>{prettifyRating(ratingName)}{`\n`}{stars}</li>
+    const scores = detailedScores(rating);
+    const maxScore = calculateMaxIndividualScore();
+    const ratingListElements = scores.map(scoreObject => {
+        const {name, ratingType, score} = scoreObject;
+        return <li>{name}{`\n`}<IndividualRatingBar ratingType={ratingType} score={score} height={3}/></li>
     })
     return (
         <aside id='ratingsSidebar'>

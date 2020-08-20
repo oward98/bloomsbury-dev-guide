@@ -1,7 +1,8 @@
 import React from 'react';
 import './RatingBar.css';
+import { calculateMaxIndividualScore } from '../../Pages/Ratings/helpers/algorithm';
 
-export default ({rating, width, height}) => {
+export const TotalRatingBar = ({rating, width, height}) => {
     let {positiveScore, neutralScore, negativeScore} = rating;
     //convert to percentages
     positiveScore *=100;
@@ -24,5 +25,17 @@ export default ({rating, width, height}) => {
             </div>
         </div>
         
+    )
+}
+
+export const IndividualRatingBar = ({score, ratingType, width, height}) => {
+    const maxScore = calculateMaxIndividualScore();
+    const unroundedPercentageScore = 100*(score/maxScore);
+    const percentageScore = unroundedPercentageScore.toFixed(0);
+    console.log(percentageScore);
+    return (
+        <div style={{height: `${height}px`, width: `${width}px`}} className='ratings ratingBar'>
+            <div style={{width: `${percentageScore}%`}} className={ratingType}></div>
+        </div>
     )
 }
