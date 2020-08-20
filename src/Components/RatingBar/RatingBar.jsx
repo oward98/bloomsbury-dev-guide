@@ -8,9 +8,7 @@ export const TotalRatingBar = ({rating, width, height}) => {
     positiveScore *=100;
     neutralScore *= 100;
     negativeScore *= 100;
-    //make sure total percentage does not overflow
-    console.log(rating);
-    neutralScore -=1;
+    //return
     return (
         <div className='ratings' style={{width: `${width}px`}}>
             <div className='ratingBar' style={{height: `${height}px`}}>
@@ -32,7 +30,6 @@ export const IndividualRatingBar = ({score, ratingType, width, height}) => {
     const maxScore = calculateMaxIndividualScore();
     const unroundedPercentageScore = 100*(score/maxScore);
     const percentageScore = unroundedPercentageScore.toFixed(0);
-    console.log(percentageScore);
     return (
         <div style={{height: `${height}px`, width: `${width}px`}} className='ratings ratingBar'>
             <div style={{width: `${percentageScore}%`}} className={ratingType}></div>

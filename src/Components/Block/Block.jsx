@@ -1,7 +1,7 @@
 import React from 'react';
 import './Block.css';
 import { Link } from 'react-router-dom';
-import { calculateScore, createImage } from '../utils';
+import { createImage } from '../utils';
 import { totalScore } from '../../Pages/Ratings/helpers/algorithm';
 import { TotalRatingBar } from '../RatingBar/RatingBar';
 

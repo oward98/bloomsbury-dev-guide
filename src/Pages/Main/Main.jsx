@@ -12,7 +12,7 @@ export const Main = ({ title, blocksPath }) => {
             const image = images[0];
             const link = slug;
             const options = { rating, summary }
-            return <Block title={name} image={image} link={link} options={options} />
+            return <Block title={name} image={image} link={link} options={options} key={slug}/>
     })
     }
     return (

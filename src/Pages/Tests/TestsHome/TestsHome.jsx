@@ -1,7 +1,6 @@
 import React from 'react';
 import { Header } from '../../../Components/Header/Header';
 import './TestsHome.css';
-import RatingBar from '../../../Components/RatingBar/RatingBar';
 
 export default () => {
     return (
