@@ -74,4 +74,4 @@ class Masonry extends React.Component {
     }
 }
 
-export { Masonry };
+export { Masonry }
