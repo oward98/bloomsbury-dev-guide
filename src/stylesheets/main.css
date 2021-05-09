@@ -7,6 +7,10 @@ main {
     align-items: flex-start;
 }
 
+#mainDiv.withSidebar {
+    padding-left: var(--global-margin-small);
+}
+
 #app h1 {
     margin: 10px 0;
     font-size: 2.2em;
@@ -15,6 +19,21 @@ main {
 
 #home p, #home li {
     font-size: 1.3em;
+}
+
+.defaultMargin {
+    padding-left: var(--global-margin);
+    padding-right: var(--global-margin);
+}
+
+.wideMargin {
+    padding-left: var(--global-margin-medium);
+    padding-right: var(--global-margin-medium);
+}
+
+.extraWideMargin {
+    padding-left: var(--global-margin-small);
+    padding-right: var(--global-margin-small);
 }
 
 .sidesPadded {
@@ -26,9 +45,4 @@ main {
 .sidebar {
     height: 100%;
     overflow: scroll;
-}
-
-#app {
-    position: sticky;
-    top: 0;
 }

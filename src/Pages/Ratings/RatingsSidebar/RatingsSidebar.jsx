@@ -1,19 +1,11 @@
 import React from 'react';
-import { detailedScores } from '../helpers/algorithm';
 import './RatingsSidebar.css';
-import { IndividualRatingBar } from '../../../Components/RatingBar/RatingBar';
 
 export const RatingsSidebar = ({rating}) => {
-    const scores = detailedScores(rating);
-    const ratingListElements = scores.map(scoreObject => {
-        const {name, ratingType, score} = scoreObject;
-        return <li key={name}>{name}{`\n`}<IndividualRatingBar ratingType={ratingType} score={score} height={3}/></li>
-    })
+
     return (
         <aside id='ratingsSidebar'>
-            <ul>
-                {ratingListElements}
-            </ul>
+            <p>Ratings Here</p>
         </aside>
     ) 
 }

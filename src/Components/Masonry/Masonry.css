@@ -1,0 +1,17 @@
+#masonryContainer {
+    display: flex;
+    margin: 0 -8px;
+    box-sizing: border-box;
+    width: 100%;
+}
+
+.masonryColumn {
+    flex-grow: 1;
+    flex-basis: 0;
+    padding: 0 8px;
+}
+
+.masonryColumn > * {
+    width: 100%;
+    margin-bottom: 5px;
+}

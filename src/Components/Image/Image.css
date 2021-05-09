@@ -1,0 +1,15 @@
+.imageFigure {
+    margin-bottom: 20px;
+}
+
+.imageFigure > img {
+    width: 100%;
+    border-radius: 4px;
+}
+
+.imageFigure > figcaption {
+    color: rgb(155, 155, 155);
+    font-family: 'Georgia';
+    font-size: 14px;
+    display: none;
+}

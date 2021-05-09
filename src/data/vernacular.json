@@ -1,0 +1,347 @@
+[
+    {
+        "name": "Materials",
+        "slug": "materials",
+        "flickrSrc": "",
+        "description": "",
+        "children": [
+            {
+                "name": "Brick",
+                "slug": "brick",
+                "flickrSrc": "",
+                "description": ""   
+            },
+            {
+                "name": "Portland Stone",
+                "slug": "portland-stone",
+                "flickrSrc": "",
+                "description": ""   
+            },
+            {
+                "name": "Stucco",
+                "slug": "stucco",
+                "flickrSrc": "",
+                "description": ""   
+            },
+            {
+                "name": "Glass",
+                "slug": "glass",
+                "flickrSrc": "",
+                "description": ""   
+            },
+            {
+                "name": "Timber",
+                "slug": "timber",
+                "flickrSrc": "",
+                "description": ""   
+            },
+            {
+                "name": "Slate",
+                "slug": "slate",
+                "flickrSrc": "",
+                "description": ""   
+            }
+        ]
+    },
+    {
+        "name": "Building Typology",
+        "slug": "typology",
+        "flickrSrc": "",
+        "description": "",
+        "children": [
+            {
+                "name": "Terrace",
+                "slug": "terrace",
+                "flickrSrc": "72157719139367256",
+                "description": ""   
+            },
+            {
+                "name": "Mansion Block",
+                "slug": "mansion-block",
+                "flickrSrc": "72157719135318169",
+                "description": ""   
+            },
+            {
+                "name": "Institutional",
+                "slug": "institutional",
+                "flickrSrc": "",
+                "description": ""   
+            },
+            {
+                "name": "Commercial",
+                "slug": "commercial",
+                "flickrSrc": "",
+                "description": ""   
+            },
+            {
+                "name": "Ecclesiastical",
+                "slug": "ecclesiastical",
+                "flickrSrc": "",
+                "description": ""   
+            },
+            {
+                "name": "Mews",
+                "slug": "mews",
+                "flickrSrc": "",
+                "description": ""   
+            },
+            {
+                "name": "Curiosities",
+                "slug": "curiosities",
+                "flickrSrc": "",
+                "description": ""   
+            }
+
+        ] 
+    },
+    {
+        "name": "Style",
+        "slug": "style",
+        "flickrSrc": "",
+        "description": "",
+        "children": [
+            {
+                "name": "Classical",
+                "slug": "classical",
+                "flickrSrc": "72157719144404617",
+                "description": ""   
+            },
+            {
+                "name": "Gothic & Gothic Revival",
+                "slug": "gothic",
+                "flickrSrc": "",
+                "description": ""   
+            },
+            {
+                "name": "Romanesque Revival",
+                "slug": "romanesque-revival",
+                "flickrSrc": "",
+                "description": ""   
+            },
+            {
+                "name": "Arts and Crafts",
+                "slug": "arts-and-crafts",
+                "flickrSrc": "",
+                "description": ""   
+            },
+            {
+                "name": "Byzantine Revival",
+                "slug": "byzantine-revival",
+                "flickrSrc": "",
+                "description": ""   
+            },
+            {
+                "name": "Art Deco",
+                "slug": "art-deco",
+                "flickrSrc": "",
+                "description": ""   
+            },
+            {
+                "name": "Modern",
+                "slug": "modern",
+                "flickrSrc": "",
+                "description": ""   
+            },
+            {
+                "name": "Brutalist",
+                "slug": "brutalist",
+                "flickrSrc": "",
+                "description": ""   
+            }
+        ]  
+    },
+    {
+        "name": "Relationship to Street",
+        "slug": "relationship-to-street",
+        "flickrSrc": "",
+        "description": "",
+        "children": [
+            {
+                "name": "Basement Levels",
+                "slug": "basement-levels",
+                "flickrSrc": "",
+                "description": ""   
+            },
+            {
+                "name": "Railings",
+                "slug": "railings",
+                "flickrSrc": "",
+                "description": ""   
+            },
+            {
+                "name": "Rustication",
+                "slug": "rustication",
+                "flickrSrc": "",
+                "description": ""   
+            },
+            {
+                "name": "Shopfronts",
+                "slug": "shopfronts",
+                "flickrSrc": "",
+                "description": ""   
+            },
+            {
+                "name": "Entrances",
+                "slug": "entrances",
+                "flickrSrc": "",
+                "description": ""   
+            }
+        ] 
+    },
+    {
+        "name": "Roofscape",
+        "slug": "roofscape",
+        "flickrSrc": "",
+        "description": "",
+        "children": [
+            {
+                "name": "Chimneys",
+                "slug": "chimneys",
+                "flickrSrc": "",
+                "description": ""   
+            },
+            {
+                "name": "Butterfly Roofs",
+                "slug": "butterfly-roofs",
+                "flickrSrc": "",
+                "description": ""   
+            },
+            {
+                "name": "Expressed Party Walls",
+                "slug": "expressed-party-walls",
+                "flickrSrc": "",
+                "description": ""   
+            },
+            {
+                "name": "Parapets",
+                "slug": "parapets",
+                "flickrSrc": "",
+                "description": ""   
+            },
+            {
+                "name": "Turrets",
+                "slug": "turrets",
+                "flickrSrc": "",
+                "description": ""   
+            },
+            {
+                "name": "Skylights",
+                "slug": "skylights",
+                "flickrSrc": "",
+                "description": ""   
+            },
+            {
+                "name": "Dormers",
+                "slug": "dormers",
+                "flickrSrc": "",
+                "description": ""   
+            }
+        ]  
+    },
+    {
+        "name": "Features",
+        "slug": "features",
+        "flickrSrc": "",
+        "description": "",
+        "children": [
+            {
+                "name": "Classical Orders",
+                "slug": "classical-orders",
+                "flickrSrc": "",
+                "description": ""   
+            },
+            {
+                "name": "Corner Elements",
+                "slug": "corner-elements",
+                "flickrSrc": "",
+                "description": ""   
+            },
+            {
+                "name": "Fanlights",
+                "slug": "fanlights",
+                "flickrSrc": "",
+                "description": ""   
+            },
+            {
+                "name": "Clocks",
+                "slug": "clocks",
+                "flickrSrc": "",
+                "description": ""   
+            },
+            {
+                "name": "Signs",
+                "slug": "signs",
+                "flickrSrc": "",
+                "description": ""   
+            }
+        ]
+    },
+    {
+        "name": "Street Environment",
+        "slug": "street-environment",
+        "flickrSrc": "",
+        "description": "",
+        "children": [
+            {
+                "name": "Squares and Gardens",
+                "slug": "squares-and-gardens",
+                "flickrSrc": "",
+                "description": ""   
+            },
+            {
+                "name": "Paving",
+                "slug": "paving",
+                "flickrSrc": "",
+                "description": ""   
+            },
+            {
+                "name": "Setts",
+                "slug": "setts",
+                "flickrSrc": "",
+                "description": ""   
+            },
+            {
+                "name": "Kerbstones",
+                "slug": "kerbstones",
+                "flickrSrc": "",
+                "description": ""   
+            },
+            {
+                "name": "Lampposts",
+                "slug": "lampposts",
+                "flickrSrc": "",
+                "description": ""   
+            },
+            {
+                "name": "Railings",
+                "slug": "railings",
+                "flickrSrc": "",
+                "description": ""   
+            },
+            {
+                "name": "Benches",
+                "slug": "benches",
+                "flickrSrc": "",
+                "description": ""   
+            },
+            {
+                "name": "Postboxes",
+                "slug": "postboxes",
+                "flickrSrc": "",
+                "description": ""   
+            },
+            {
+                "name": "Wildlife",
+                "slug": "wildlife",
+                "flickrSrc": "",
+                "description": ""   
+            },
+            {
+                "name": "Curiosities",
+                "slug": "curiosities",
+                "flickrSrc": "",
+                "description": ""   
+            }
+        ]  
+    }
+]

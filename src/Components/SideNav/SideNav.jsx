@@ -2,23 +2,25 @@ import React from 'react';
 import './SideNav.css';
 import { Link, useLocation } from 'react-router-dom';
 
-export const SideNav = ({ routesData }) => {
+export const SideNav = ( {pages} ) => {
     const path = useLocation().pathname;
-    const decideClassName = linkData => path.includes(linkData.link) ? "selected" : "unselected";
 
-    const makeLink = linkData => <Link to={linkData.link}>{linkData.title}</Link>
+    const pageIsActive = page => path.includes(page.slug);
+    const decidePageClassName = page => pageIsActive(page) ? "selected" : "unselected";
+    const makeLink = page => <Link to={page.link}>{page.name}</Link>;
+
     return (
         <nav className='sideNav sidebar'>
             <ul id='mainSideList'>
-                {routesData.map(topLevelLink => {
+                {pages.map((page, index) => {
                     return (
-                        <li className={`${decideClassName(topLevelLink)}  topLevelList`}>
-                            <h2 className={decideClassName(topLevelLink)}>{makeLink(topLevelLink)}</h2>
+                        <li key={index} className={`${decidePageClassName(page)}  topLevelList`}>
+                            <h2 className={decidePageClassName(page)}>{makeLink(page)}</h2>
                             {
-                                topLevelLink.subtitles
+                                page.children
                                 ?
                                 <ul className='sideMinorList'>
-                                    {topLevelLink.subtitles.map(lowerLevelLink => <li ><h3 className={decideClassName(lowerLevelLink)}>{makeLink(lowerLevelLink)}</h3></li>)}
+                                    {page.children.map((childPage, index) => <li key={index}><h3 className={decidePageClassName(childPage)}>{makeLink(childPage)}</h3></li>)}
                                 </ul>
                                 :
                                 null    
@@ -30,22 +32,3 @@ export const SideNav = ({ routesData }) => {
         </nav>
     )
 }
-
-/*
-const sideNavData = [
-    {
-        title,
-        link,
-        subtitles: [
-            {
-                title,
-                link
-            }
-        }
-        ]
-    },
-    {
-
-    },
-]
-*/

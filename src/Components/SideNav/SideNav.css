@@ -7,7 +7,7 @@
     flex-flow: column;
     width: 200px;
     flex-shrink: 0;
-    margin-right: var(--global-margin);
+    margin-right: var(--global-margin-small);
 }
 
 #mainSideList .selected {

@@ -4,13 +4,13 @@ footer {
     height: var(--footer-height);
     width: 100%;
     align-items: center;
-    background-color: black;
-    color: white;
+    background-color: rgba(206, 206, 206, 0.788);
+    color: rgb(29, 29, 29);
     font-weight: 400;
     justify-content: space-between;
-    position: absolute;
-    bottom: 0;
     z-index: 1;
     box-sizing: border-box;
     opacity: 0.95;
+    position: absolute;
+    bottom: 0;
 }

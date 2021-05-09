@@ -1,9 +1,11 @@
 #veryTopNav {
     font-size: 1em;
     display: flex;
-    background-color: black;
+    background-color: rgb(31, 31, 31);
     color: rgb(190, 190, 190);
     border-bottom: none;
+    padding-top: 7px;
+    padding-bottom: 7px;
 }
 
 #veryTopNav h1, #veryTopNav li {
@@ -26,9 +28,14 @@
     font-weight: normal;
 }
 
+#mainHeaderLogo {
+    height: 50px;
+}
+
 .fullWidthNav {
     display: flex;
     padding: 0 var(--global-margin);
+
 }
 
 .fullWidthNav h1 {
@@ -65,17 +72,19 @@
 }
 
 #mainNav {
-    background-color: white;
-    border-bottom: 1px solid lightgray;
-    opacity: 0.9;
+    background-color: rgb(136, 136, 136);
+    opacity: 0.95;
+    font-size: 17px;
 }
 
 #mainNav li {
     transition: all 0.25s ease;
+    padding-top: 5px;
+    padding-bottom: 5px;
 }
 
 #mainNav li.selected {
-    background-color: lightgrey;
+    background-color: white;
 }
 
 #mainNav li:hover {
