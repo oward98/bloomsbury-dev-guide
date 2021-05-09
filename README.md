@@ -4,4 +4,8 @@ A Single Page Application, providing a resource to showcase the architecture of 
 
 Currently in very early stages and much work to be done in setting up databases and populating tables.
 
+<<<<<<< HEAD
 Example here: https://guide.bloomsburylives.co.uk
+=======
+Example here: https://guide.bloomsburylives.co.uk
+>>>>>>> 674ce7224bfed4b5fd13e023053b866caee215d7
